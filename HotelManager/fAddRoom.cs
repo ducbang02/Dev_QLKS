@@ -56,6 +56,7 @@ namespace HotelManager
             try
             {
                 Room roomNow = GetRoomNow();
+                MessageBox.Show($"{roomNow.Id},{roomNow.IdRoomType},{roomNow.IdStatusRoom}");
                 if (RoomDAO.Instance.InsertRoom(roomNow))
                 {
                     txbNameRoom.Text = string.Empty;
@@ -64,9 +65,9 @@ namespace HotelManager
                 else
                     MessageBox.Show("Phòng này đã tồn tại(Trùng mã  phòng)", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Lỗi không thêm được phòng này", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Lỗi không thêm được phòng này {ex.Message}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void btnAddCustomer_Click(object sender, EventArgs e)

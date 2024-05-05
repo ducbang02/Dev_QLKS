@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DAO
 {
@@ -19,10 +20,15 @@ namespace DAO
         }
         public bool InsertRoom(Room roomNow)
         {
+            if (roomNow.IdStatusRoom == 0) // Nếu chưa được thiết lập
+            {
+                roomNow.IdStatusRoom = 1;
+            }
             return InsertRoom(roomNow.Name, roomNow.IdRoomType, roomNow.IdStatusRoom);
         }
         public bool InsertRoom(string roomName, string idRoomType, int idStatusRoom)
         {
+            idStatusRoom = 1;
             string query = "USP_InsertRoom @nameRoom , @idRoomType , @idStatusRoom";
             return DataProvider.Instance.ExecuteNoneQuery(query, new object[] { roomName, idRoomType, idStatusRoom }) > 0;
         }
