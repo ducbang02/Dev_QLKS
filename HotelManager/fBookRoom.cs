@@ -232,18 +232,63 @@ namespace HotelManager
             return GetIDAutomaticDAO.Instance.Actomatic_ID("BookRoom", "ID");
         }
 
+        //private void bunifuCheckbox1_OnChange(object sender, EventArgs e)
+        //{
+        //    if ( bunifuCheckbox1.Checked )
+        //    {
+
+        //        fReceiveRoom fReceiveRoom = new fReceiveRoom(GetCurrentIDBookRoom(DateTime.Now.Date,idbookroom));
+        //        this.Hide();
+        //        fReceiveRoom.ShowDialog();
+        //        this.Show();
+
+        //    }
+        //}
+
         private void bunifuCheckbox1_OnChange(object sender, EventArgs e)
         {
-            if ( bunifuCheckbox1.Checked )
+            try
             {
+                if (bunifuCheckbox1.Checked)
+                {
+                    // Nếu idbookroom là null hoặc rỗng, hãy ném một ngoại lệ có thông báo cụ thể
+                    if (string.IsNullOrWhiteSpace(idbookroom))
+                    {
+                        throw new ArgumentNullException("idbookroom", "Bạn chưa chọn phòng nào.");
+                    }
 
-                fReceiveRoom fReceiveRoom = new fReceiveRoom(GetCurrentIDBookRoom(DateTime.Now.Date,idbookroom));
-                this.Hide();
-                fReceiveRoom.ShowDialog();
-                this.Show();
+                    // Lấy ID của phòng book
+                    string currentIDBookRoom = GetCurrentIDBookRoom(DateTime.Now.Date, idbookroom);
 
+                    // Nếu kết quả trả về là null, điều đó có nghĩa là không có đặt phòng tương ứng
+                    if (currentIDBookRoom == null)
+                    {
+                        throw new InvalidOperationException("Không tìm thấy đặt phòng.");
+                    }
+
+                    fReceiveRoom fReceiveRoom = new fReceiveRoom(currentIDBookRoom);
+                    this.Hide();
+                    fReceiveRoom.ShowDialog();
+                    this.Show();
+                }
+            }
+            catch (ArgumentNullException ex)
+            {
+                // Hiển thị thông báo khi idbookroom bị thiếu
+                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            catch (InvalidOperationException ex)
+            {
+                // Hiển thị thông báo khi không có đặt phòng
+                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            catch (Exception ex)
+            {
+                // Xử lý các ngoại lệ khác
+                MessageBox.Show($"Có lỗi xảy ra: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private void dataGridViewBookRoom_CellClick(object sender, DataGridViewCellEventArgs e)
         {
