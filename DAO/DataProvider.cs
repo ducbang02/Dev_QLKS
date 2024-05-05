@@ -18,6 +18,7 @@ namespace DAO
 
         private void getConnectData()
         {
+            //connection
             getConnect = new SqlConnection("Data Source=localhost;Initial Catalog=QLKS2;Integrated Security=True");
             getConnect.Open();
 
