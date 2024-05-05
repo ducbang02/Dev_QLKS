@@ -208,13 +208,25 @@ namespace HotelManager
         //Xem thông tin chi tiết
         private void btnDetails_Click(object sender, EventArgs e)
         {
-            string idBookRoom = dataGridViewBookRoom.SelectedRows[0].Cells[0].Value.ToString();
-            string idCard= dataGridViewBookRoom.SelectedRows[0].Cells[2].Value.ToString();
-            fBookRoomDetails f = new fBookRoomDetails(idBookRoom, idCard);
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            try
+            {
+
+                string idBookRoom = dataGridViewBookRoom.SelectedRows[0].Cells[0].Value.ToString();
+                string idCard = dataGridViewBookRoom.SelectedRows[0].Cells[2].Value.ToString();
+                fBookRoomDetails f = new fBookRoomDetails(idBookRoom, idCard);
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }        
+            catch (Exception ex)
+            {
+                // Xử lý các ngoại lệ không xác định khác
+                MessageBox.Show($"Có lỗi xảy ra: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+            
             LoadListBookRoom();
+
         }
 
         private void txbPhoneNumber_KeyPress(object sender, KeyPressEventArgs e)

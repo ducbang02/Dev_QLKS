@@ -184,14 +184,55 @@ namespace HotelManager
             this.Close();
         }
 
+        //private void btnDetails_Click(object sender, EventArgs e)
+        //{
+        //    fReceiveRoomDetails f = new fReceiveRoomDetails((string)dataGridViewReceiveRoom.SelectedRows[0].Cells[0].Value);
+        //    this.Hide();
+        //    f.ShowDialog();
+        //    this.Show();
+        //    LoadReceiveRoomInfo();
+        //}
         private void btnDetails_Click(object sender, EventArgs e)
         {
-            fReceiveRoomDetails f = new fReceiveRoomDetails((string)dataGridViewReceiveRoom.SelectedRows[0].Cells[0].Value);
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
-            LoadReceiveRoomInfo();
+            try
+            {
+                // Kiểm tra xem có hàng nào được chọn không
+                if (dataGridViewReceiveRoom.SelectedRows.Count == 0)
+                {
+                    throw new InvalidOperationException("Chưa có hàng nào được chọn.");
+                }
+
+                // Lấy giá trị từ cột đầu tiên của hàng được chọn
+                object cellValue = dataGridViewReceiveRoom.SelectedRows[0].Cells[0].Value;
+
+                // Kiểm tra giá trị có null hoặc rỗng không
+                if (cellValue == null || string.IsNullOrWhiteSpace(cellValue.ToString()))
+                {
+                    throw new InvalidOperationException("Giá trị không hợp lệ. Vui lòng chọn một hàng hợp lệ.");
+                }
+
+                string roomId = cellValue.ToString();
+
+                // Tạo form chi tiết với giá trị đã lấy được
+                fReceiveRoomDetails f = new fReceiveRoomDetails(roomId);
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+
+                LoadReceiveRoomInfo(); // Cập nhật thông tin phòng
+            }
+            catch (InvalidOperationException ex)
+            {
+                // Xử lý ngoại lệ logic
+                MessageBox.Show(ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            catch (Exception ex)
+            {
+                // Xử lý các ngoại lệ khác
+                MessageBox.Show($"Có lỗi xảy ra: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
         private string GetAutomaticIDReceiveRoom()
         {
             return GetIDAutomaticDAO.Instance.Actomatic_ID("ReceiveRoom", "ID");
