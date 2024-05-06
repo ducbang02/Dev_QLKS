@@ -23,7 +23,7 @@ namespace DAO
         }
         public bool InsertRoom(string roomName, string idRoomType, int idStatusRoom)
         {
-            string query = "USP_InsertRoom @nameRoom , @idRoomType , @idStatusRoom";
+            string query = "exec USP_InsertRoom @nameRoom , @idRoomType , @idStatusRoom";
             return DataProvider.Instance.ExecuteNoneQuery(query, new object[] { roomName, idRoomType, idStatusRoom }) > 0;
         }
         public bool UpdateCustomer(Room roomNow)

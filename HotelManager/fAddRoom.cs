@@ -56,6 +56,7 @@ namespace HotelManager
             try
             {
                 Room roomNow = GetRoomNow();
+                MessageBox.Show($"{roomNow.Id}, {roomNow.Name}, {roomNow.IdRoomType},{roomNow.IdStatusRoom}");
                 if (RoomDAO.Instance.InsertRoom(roomNow))
                 {
                     txbNameRoom.Text = string.Empty;
