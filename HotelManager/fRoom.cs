@@ -330,5 +330,10 @@ namespace HotelManager
             BtnCancel_Click(sender, null);
         }
         #endregion
+
+        private void fRoom_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

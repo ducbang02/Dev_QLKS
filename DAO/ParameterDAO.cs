@@ -32,6 +32,14 @@ namespace DAO
             string query = "USP_SearchParameter @string";
             return DataProvider.Instance.ExecuteQuery(query, new object[] { text });
         }
+
+        //GetMaxPersonByRoomType
+        public DataTable GetMaxPersonByRoomType(string nameRoom)
+        {
+            string query = "select LimitPerson from LoadFullRoom where Name = @nameRoom";
+            return DataProvider.Instance.ExecuteQuery(query, new object[] { nameRoom });
+        }
+
         #endregion
 
     }

@@ -45,17 +45,73 @@ namespace HotelManager
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            //Kiểm tra số lượng khách hàng hiện tại trong DataGridView
+            int currentCustomerCount = dataGridView.Rows.Count;
+            DataTable result = DAO.ParameterDAO.Instance.GetMaxPersonByRoomType(txbRoomName.Text);
+
+            int maxPerson = (int)result.Rows[0]["LimitPerson"]; // Số lượng tối đa
+            if (currentCustomerCount >= maxPerson)
+            {
+                MessageBox.Show("Phòng đã đạt số lượng người tối đa.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // Không cho phép thêm người nữa
+            }
+
             fAddCustomerInfo f = new fAddCustomerInfo();
             this.Hide();
             f.ShowDialog();
             this.Show();
-            if(fAddCustomerInfo.ListIdCustomer.Count>0)
+            if (fAddCustomerInfo.ListIdCustomer.Count > 0)
                 foreach (var item in fAddCustomerInfo.ListIdCustomer)
                 {
                     ReceiveRoomDetailsDAO.Instance.InsertReceiveRoomDetails(idReceiveRoom, item);
                 }
             ShowCustomers(idReceiveRoom);
         }
+
+        //private void bunifuThinButton21_Click(object sender, EventArgs e)
+        //{
+        //    // Kiểm tra số lượng khách hàng hiện tại trong DataGridView
+        //    int currentCustomerCount = dataGridView.Rows.Count;
+
+        //    // Lấy số lượng tối đa khách hàng theo loại phòng
+
+        //    //string roomTypeId = GetRoomTypeIdFromReceiveRoomId(idReceiveRoom); // Bạn cần một phương thức để lấy loại phòng từ ID nhận phòng
+        //    DataTable result = DataProvider.Instance.ExecuteQuery("USP_GetMaxPersonByRoomType @idRoomType", new object[] { roomTypeId });
+
+        //    if (result.Rows.Count == 0)
+        //    {
+        //        MessageBox.Show("Không thể xác định số lượng khách hàng tối đa cho loại phòng này.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        return;
+        //    }
+
+        //    int maxPerson = (int)result.Rows[0]["Value"]; // Số lượng tối đa
+
+        //    // Kiểm tra nếu số lượng hiện tại đã đạt hoặc vượt quá giới hạn
+        //    if (currentCustomerCount >= maxPerson)
+        //    {
+        //        MessageBox.Show("Phòng đã đạt số lượng khách hàng tối đa.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        //        return;
+        //    }
+
+        //    // Nếu chưa đạt giới hạn, cho phép thêm khách hàng mới
+        //    fAddCustomerInfo f = new fAddCustomerInfo();
+        //    this.Hide();
+        //    f.ShowDialog();
+        //    this.Show();
+
+        //    // Kiểm tra danh sách khách hàng mới được thêm từ fAddCustomerInfo
+        //    if (fAddCustomerInfo.ListIdCustomer.Count > 0)
+        //    {
+        //        foreach (var item in fAddCustomerInfo.ListIdCustomer)
+        //        {
+        //            ReceiveRoomDetailsDAO.Instance.InsertReceiveRoomDetails(idReceiveRoom, item);
+        //        }
+        //    }
+
+        //    // Hiển thị lại danh sách khách hàng trong phòng
+        //    ShowCustomers(idReceiveRoom);
+        //}
+
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
@@ -89,6 +145,11 @@ namespace HotelManager
             f.ShowDialog();
             this.Show();
             ShowReceiveRoom(idReceiveRoom);
+        }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

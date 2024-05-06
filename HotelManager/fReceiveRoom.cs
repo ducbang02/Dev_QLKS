@@ -66,6 +66,12 @@ namespace HotelManager
             txbAmountPeople.Text= dataRow["LimitPerson"].ToString();
             txbPrice.Text= dataRow["Price"].ToString();
         }
+        //public Room GetIdRoomTypeNow()
+        //{
+        //    Room room = new Room();
+        //    room.IdRoomType = txbRoomTypeName.Text;
+        //    return room;
+        //}
         public bool InsertReceiveRoom(string id,string idBookRoom, string idRoom)
         {
             return ReceiveRoomDAO.Instance.InsertReceiveRoom(id,idBookRoom, idRoom);
@@ -119,6 +125,13 @@ namespace HotelManager
 
         private void btnAddCustomer_Click(object sender, EventArgs e)
         {
+            
+       
+            if (dataGridViewReceiveRoom.SelectedRows.Count == 0)
+            {
+                throw new InvalidOperationException("Chưa có hàng nào được chọn.");
+            }
+
             if (txbRoomName.Text != string.Empty && txbRoomTypeName.Text != string.Empty && txbFullName.Text != string.Empty && txbIDCard.Text != string.Empty && txbDateCheckIn.Text != string.Empty && txbDateCheckOut.Text != string.Empty && txbAmountPeople.Text != string.Empty && txbPrice.Text != string.Empty)
             {
                 fAddCustomerInfo fAddCustomerInfo = new fAddCustomerInfo();
