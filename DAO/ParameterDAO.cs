@@ -34,9 +34,9 @@ namespace DAO
         }
 
         //GetMaxPersonByRoomType
-        public DataTable GetMaxPersonByRoomType(string nameRoom)
+        public DataTable GetMaxPersonByRoomName(string nameRoom)
         {
-            string query = "select LimitPerson from LoadFullRoom where Name = @nameRoom";
+            string query = "GetMaxPersionByNameRoom @nameRoom";
             return DataProvider.Instance.ExecuteQuery(query, new object[] { nameRoom });
         }
 

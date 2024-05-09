@@ -45,11 +45,14 @@ namespace HotelManager
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            
             //Kiểm tra số lượng khách hàng hiện tại trong DataGridView
             int currentCustomerCount = dataGridView.Rows.Count;
-            DataTable result = DAO.ParameterDAO.Instance.GetMaxPersonByRoomType(txbRoomName.Text);
-
-            int maxPerson = (int)result.Rows[0]["LimitPerson"]; // Số lượng tối đa
+            MessageBox.Show($"{currentCustomerCount}");
+            DataTable result = ParameterDAO.Instance.GetMaxPersonByRoomName(txbRoomName.Text);
+            MessageBox.Show($"{txbRoomName.Text}");
+            Double maxPerson = (Double)result.Rows[0]["MaxPerson"]; // Số lượng tối đa
+            
             if (currentCustomerCount >= maxPerson)
             {
                 MessageBox.Show("Phòng đã đạt số lượng người tối đa.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);

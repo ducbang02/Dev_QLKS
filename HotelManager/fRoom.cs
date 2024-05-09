@@ -335,5 +335,10 @@ namespace HotelManager
         {
 
         }
+
+        private void dataGridViewRoom_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

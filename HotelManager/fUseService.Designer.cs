@@ -126,9 +126,10 @@
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
-            this.btnClose.Location = new System.Drawing.Point(1234, 6);
+            this.btnClose.Location = new System.Drawing.Point(1645, 7);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(16, 16);
+            this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnClose.TabIndex = 26;
             this.btnClose.TabStop = false;
@@ -152,9 +153,11 @@
             this.groupBox3.Controls.Add(this.flowLayoutRooms);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.groupBox3.Location = new System.Drawing.Point(6, 51);
+            this.groupBox3.Location = new System.Drawing.Point(8, 63);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(360, 559);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Size = new System.Drawing.Size(480, 688);
             this.groupBox3.TabIndex = 31;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh sách phòng";
@@ -163,9 +166,10 @@
             // 
             this.label13.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label13.Location = new System.Drawing.Point(8, 50);
+            this.label13.Location = new System.Drawing.Point(11, 62);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(110, 36);
+            this.label13.Size = new System.Drawing.Size(147, 44);
             this.label13.TabIndex = 63;
             this.label13.Text = "Phòng đang chọn";
             this.label13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -173,9 +177,10 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.SteelBlue;
-            this.pictureBox6.Location = new System.Drawing.Point(14, 30);
+            this.pictureBox6.Location = new System.Drawing.Point(19, 37);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(97, 15);
+            this.pictureBox6.Size = new System.Drawing.Size(129, 18);
             this.pictureBox6.TabIndex = 62;
             this.pictureBox6.TabStop = false;
             // 
@@ -183,9 +188,10 @@
             // 
             this.lblRoomType5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRoomType5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRoomType5.Location = new System.Drawing.Point(244, 113);
+            this.lblRoomType5.Location = new System.Drawing.Point(325, 139);
+            this.lblRoomType5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRoomType5.Name = "lblRoomType5";
-            this.lblRoomType5.Size = new System.Drawing.Size(110, 36);
+            this.lblRoomType5.Size = new System.Drawing.Size(147, 44);
             this.lblRoomType5.TabIndex = 61;
             this.lblRoomType5.Text = "Phòng khác";
             this.lblRoomType5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -193,9 +199,10 @@
             // color5
             // 
             this.color5.BackColor = System.Drawing.Color.Gray;
-            this.color5.Location = new System.Drawing.Point(246, 94);
+            this.color5.Location = new System.Drawing.Point(328, 116);
+            this.color5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.color5.Name = "color5";
-            this.color5.Size = new System.Drawing.Size(97, 15);
+            this.color5.Size = new System.Drawing.Size(129, 18);
             this.color5.TabIndex = 60;
             this.color5.TabStop = false;
             // 
@@ -203,9 +210,10 @@
             // 
             this.lblRoomType3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRoomType3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRoomType3.Location = new System.Drawing.Point(8, 113);
+            this.lblRoomType3.Location = new System.Drawing.Point(11, 139);
+            this.lblRoomType3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRoomType3.Name = "lblRoomType3";
-            this.lblRoomType3.Size = new System.Drawing.Size(110, 36);
+            this.lblRoomType3.Size = new System.Drawing.Size(147, 44);
             this.lblRoomType3.TabIndex = 59;
             this.lblRoomType3.Text = "Phòng Standard (STD)";
             this.lblRoomType3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -213,9 +221,10 @@
             // color3
             // 
             this.color3.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.color3.Location = new System.Drawing.Point(15, 94);
+            this.color3.Location = new System.Drawing.Point(20, 116);
+            this.color3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.color3.Name = "color3";
-            this.color3.Size = new System.Drawing.Size(97, 15);
+            this.color3.Size = new System.Drawing.Size(129, 18);
             this.color3.TabIndex = 58;
             this.color3.TabStop = false;
             // 
@@ -223,9 +232,10 @@
             // 
             this.lblRoomType2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRoomType2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRoomType2.Location = new System.Drawing.Point(244, 50);
+            this.lblRoomType2.Location = new System.Drawing.Point(325, 62);
+            this.lblRoomType2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRoomType2.Name = "lblRoomType2";
-            this.lblRoomType2.Size = new System.Drawing.Size(110, 36);
+            this.lblRoomType2.Size = new System.Drawing.Size(147, 44);
             this.lblRoomType2.TabIndex = 57;
             this.lblRoomType2.Text = "Phòng Superior (SUP)";
             this.lblRoomType2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -233,9 +243,10 @@
             // color2
             // 
             this.color2.BackColor = System.Drawing.Color.Violet;
-            this.color2.Location = new System.Drawing.Point(246, 30);
+            this.color2.Location = new System.Drawing.Point(328, 37);
+            this.color2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.color2.Name = "color2";
-            this.color2.Size = new System.Drawing.Size(97, 15);
+            this.color2.Size = new System.Drawing.Size(129, 18);
             this.color2.TabIndex = 56;
             this.color2.TabStop = false;
             // 
@@ -243,9 +254,10 @@
             // 
             this.lblRoomType1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRoomType1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRoomType1.Location = new System.Drawing.Point(123, 50);
+            this.lblRoomType1.Location = new System.Drawing.Point(164, 62);
+            this.lblRoomType1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRoomType1.Name = "lblRoomType1";
-            this.lblRoomType1.Size = new System.Drawing.Size(110, 36);
+            this.lblRoomType1.Size = new System.Drawing.Size(147, 44);
             this.lblRoomType1.TabIndex = 55;
             this.lblRoomType1.Text = "Phòng Deluxe (DLX)";
             this.lblRoomType1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -254,9 +266,10 @@
             // 
             this.lblRoomType4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRoomType4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRoomType4.Location = new System.Drawing.Point(123, 113);
+            this.lblRoomType4.Location = new System.Drawing.Point(164, 139);
+            this.lblRoomType4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRoomType4.Name = "lblRoomType4";
-            this.lblRoomType4.Size = new System.Drawing.Size(110, 36);
+            this.lblRoomType4.Size = new System.Drawing.Size(147, 44);
             this.lblRoomType4.TabIndex = 53;
             this.lblRoomType4.Text = "Phòng Suite (SUT)";
             this.lblRoomType4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -264,18 +277,20 @@
             // color1
             // 
             this.color1.BackColor = System.Drawing.Color.Tomato;
-            this.color1.Location = new System.Drawing.Point(130, 30);
+            this.color1.Location = new System.Drawing.Point(173, 37);
+            this.color1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.color1.Name = "color1";
-            this.color1.Size = new System.Drawing.Size(97, 15);
+            this.color1.Size = new System.Drawing.Size(129, 18);
             this.color1.TabIndex = 54;
             this.color1.TabStop = false;
             // 
             // color4
             // 
             this.color4.BackColor = System.Drawing.Color.LimeGreen;
-            this.color4.Location = new System.Drawing.Point(130, 94);
+            this.color4.Location = new System.Drawing.Point(173, 116);
+            this.color4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.color4.Name = "color4";
-            this.color4.Size = new System.Drawing.Size(97, 15);
+            this.color4.Size = new System.Drawing.Size(129, 18);
             this.color4.TabIndex = 52;
             this.color4.TabStop = false;
             // 
@@ -283,9 +298,10 @@
             // 
             this.flowLayoutRooms.AutoScroll = true;
             this.flowLayoutRooms.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutRooms.Location = new System.Drawing.Point(3, 155);
+            this.flowLayoutRooms.Location = new System.Drawing.Point(4, 190);
+            this.flowLayoutRooms.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutRooms.Name = "flowLayoutRooms";
-            this.flowLayoutRooms.Size = new System.Drawing.Size(354, 401);
+            this.flowLayoutRooms.Size = new System.Drawing.Size(472, 494);
             this.flowLayoutRooms.TabIndex = 51;
             // 
             // bunifuSeparator1
@@ -293,9 +309,10 @@
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(6, 42);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(8, 52);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(1243, 10);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(1657, 12);
             this.bunifuSeparator1.TabIndex = 33;
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = false;
@@ -305,9 +322,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label2.Location = new System.Drawing.Point(9, 6);
+            this.label2.Location = new System.Drawing.Point(12, 7);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(397, 37);
+            this.label2.Size = new System.Drawing.Size(500, 46);
             this.label2.TabIndex = 32;
             this.label2.Text = "Sử Dụng Dịch Vụ Và Thanh Toán";
             // 
@@ -324,9 +342,11 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.groupBox1.Location = new System.Drawing.Point(370, 51);
+            this.groupBox1.Location = new System.Drawing.Point(493, 63);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(236, 291);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(315, 358);
             this.groupBox1.TabIndex = 34;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách dịch vụ";
@@ -342,10 +362,10 @@
             this.txbPrice.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbPrice.isPassword = false;
-            this.txbPrice.Location = new System.Drawing.Point(17, 148);
-            this.txbPrice.Margin = new System.Windows.Forms.Padding(4);
+            this.txbPrice.Location = new System.Drawing.Point(23, 182);
+            this.txbPrice.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txbPrice.Name = "txbPrice";
-            this.txbPrice.Size = new System.Drawing.Size(203, 29);
+            this.txbPrice.Size = new System.Drawing.Size(271, 36);
             this.txbPrice.TabIndex = 58;
             this.txbPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -354,9 +374,10 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label8.Location = new System.Drawing.Point(17, 128);
+            this.label8.Location = new System.Drawing.Point(23, 158);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 20);
+            this.label8.Size = new System.Drawing.Size(44, 25);
             this.label8.TabIndex = 59;
             this.label8.Text = "Giá:";
             // 
@@ -365,14 +386,15 @@
             this.numericUpDownCount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericUpDownCount.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.numericUpDownCount.Location = new System.Drawing.Point(17, 202);
+            this.numericUpDownCount.Location = new System.Drawing.Point(23, 249);
+            this.numericUpDownCount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericUpDownCount.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDownCount.Name = "numericUpDownCount";
-            this.numericUpDownCount.Size = new System.Drawing.Size(203, 27);
+            this.numericUpDownCount.Size = new System.Drawing.Size(271, 32);
             this.numericUpDownCount.TabIndex = 57;
             this.numericUpDownCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDownCount.Value = new decimal(new int[] {
@@ -386,9 +408,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label6.Location = new System.Drawing.Point(17, 180);
+            this.label6.Location = new System.Drawing.Point(23, 222);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 20);
+            this.label6.Size = new System.Drawing.Size(91, 25);
             this.label6.TabIndex = 56;
             this.label6.Text = "Số lượng:";
             // 
@@ -397,10 +420,11 @@
             this.cbService.BackColor = System.Drawing.Color.White;
             this.cbService.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbService.FormattingEnabled = true;
-            this.cbService.ItemHeight = 23;
-            this.cbService.Location = new System.Drawing.Point(17, 97);
+            this.cbService.ItemHeight = 24;
+            this.cbService.Location = new System.Drawing.Point(23, 119);
+            this.cbService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbService.Name = "cbService";
-            this.cbService.Size = new System.Drawing.Size(203, 29);
+            this.cbService.Size = new System.Drawing.Size(269, 30);
             this.cbService.Style = MetroFramework.MetroColorStyle.Blue;
             this.cbService.TabIndex = 54;
             this.cbService.UseCustomBackColor = true;
@@ -427,10 +451,10 @@
             this.btnAdd.IdleFillColor = System.Drawing.Color.White;
             this.btnAdd.IdleForecolor = System.Drawing.Color.SteelBlue;
             this.btnAdd.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnAdd.Location = new System.Drawing.Point(17, 239);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAdd.Location = new System.Drawing.Point(23, 294);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(203, 40);
+            this.btnAdd.Size = new System.Drawing.Size(271, 49);
             this.btnAdd.TabIndex = 49;
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -440,9 +464,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label3.Location = new System.Drawing.Point(17, 75);
+            this.label3.Location = new System.Drawing.Point(23, 92);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 20);
+            this.label3.Size = new System.Drawing.Size(79, 25);
             this.label3.TabIndex = 53;
             this.label3.Text = "Dịch vụ:";
             // 
@@ -451,10 +476,11 @@
             this.cbServiceType.BackColor = System.Drawing.Color.White;
             this.cbServiceType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbServiceType.FormattingEnabled = true;
-            this.cbServiceType.ItemHeight = 23;
-            this.cbServiceType.Location = new System.Drawing.Point(17, 44);
+            this.cbServiceType.ItemHeight = 24;
+            this.cbServiceType.Location = new System.Drawing.Point(23, 54);
+            this.cbServiceType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbServiceType.Name = "cbServiceType";
-            this.cbServiceType.Size = new System.Drawing.Size(203, 29);
+            this.cbServiceType.Size = new System.Drawing.Size(269, 30);
             this.cbServiceType.Style = MetroFramework.MetroColorStyle.Blue;
             this.cbServiceType.TabIndex = 52;
             this.cbServiceType.UseCustomBackColor = true;
@@ -468,9 +494,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label4.Location = new System.Drawing.Point(17, 22);
+            this.label4.Location = new System.Drawing.Point(23, 27);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 20);
+            this.label4.Size = new System.Drawing.Size(117, 25);
             this.label4.TabIndex = 51;
             this.label4.Text = "Loại dịch vụ:";
             // 
@@ -484,9 +511,11 @@
             this.groupBox5.Controls.Add(this.label7);
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.groupBox5.Location = new System.Drawing.Point(370, 345);
+            this.groupBox5.Location = new System.Drawing.Point(493, 425);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(236, 265);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Size = new System.Drawing.Size(315, 326);
             this.groupBox5.TabIndex = 50;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Chức năng";
@@ -509,10 +538,10 @@
             this.btnAddCustomer.IdleFillColor = System.Drawing.Color.White;
             this.btnAddCustomer.IdleForecolor = System.Drawing.Color.SteelBlue;
             this.btnAddCustomer.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnAddCustomer.Location = new System.Drawing.Point(17, 147);
-            this.btnAddCustomer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAddCustomer.Location = new System.Drawing.Point(23, 181);
+            this.btnAddCustomer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnAddCustomer.Name = "btnAddCustomer";
-            this.btnAddCustomer.Size = new System.Drawing.Size(203, 40);
+            this.btnAddCustomer.Size = new System.Drawing.Size(271, 49);
             this.btnAddCustomer.TabIndex = 64;
             this.btnAddCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
@@ -521,9 +550,10 @@
             // 
             this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericUpDown1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.numericUpDown1.Location = new System.Drawing.Point(17, 98);
+            this.numericUpDown1.Location = new System.Drawing.Point(23, 121);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(203, 29);
+            this.numericUpDown1.Size = new System.Drawing.Size(271, 34);
             this.numericUpDown1.TabIndex = 62;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -532,9 +562,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label1.Location = new System.Drawing.Point(13, 76);
+            this.label1.Location = new System.Drawing.Point(17, 94);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 20);
+            this.label1.Size = new System.Drawing.Size(91, 25);
             this.label1.TabIndex = 61;
             this.label1.Text = "Giảm giá:";
             // 
@@ -556,10 +587,10 @@
             this.btnClose_.IdleFillColor = System.Drawing.Color.White;
             this.btnClose_.IdleForecolor = System.Drawing.Color.SteelBlue;
             this.btnClose_.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnClose_.Location = new System.Drawing.Point(17, 200);
-            this.btnClose_.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClose_.Location = new System.Drawing.Point(23, 246);
+            this.btnClose_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnClose_.Name = "btnClose_";
-            this.btnClose_.Size = new System.Drawing.Size(203, 40);
+            this.btnClose_.Size = new System.Drawing.Size(271, 49);
             this.btnClose_.TabIndex = 60;
             this.btnClose_.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnClose_.Click += new System.EventHandler(this.btnClose__Click);
@@ -575,10 +606,10 @@
             this.txbTotalPrice.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbTotalPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbTotalPrice.isPassword = false;
-            this.txbTotalPrice.Location = new System.Drawing.Point(17, 44);
-            this.txbTotalPrice.Margin = new System.Windows.Forms.Padding(4);
+            this.txbTotalPrice.Location = new System.Drawing.Point(23, 54);
+            this.txbTotalPrice.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txbTotalPrice.Name = "txbTotalPrice";
-            this.txbTotalPrice.Size = new System.Drawing.Size(203, 29);
+            this.txbTotalPrice.Size = new System.Drawing.Size(271, 36);
             this.txbTotalPrice.TabIndex = 58;
             this.txbTotalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -587,9 +618,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label7.Location = new System.Drawing.Point(17, 22);
+            this.label7.Location = new System.Drawing.Point(23, 27);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 20);
+            this.label7.Size = new System.Drawing.Size(96, 25);
             this.label7.TabIndex = 59;
             this.label7.Text = "Tổng tiền:";
             // 
@@ -598,9 +630,11 @@
             this.groupBoxBill.Controls.Add(this.panel2);
             this.groupBoxBill.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxBill.ForeColor = System.Drawing.Color.SteelBlue;
-            this.groupBoxBill.Location = new System.Drawing.Point(612, 262);
+            this.groupBoxBill.Location = new System.Drawing.Point(816, 322);
+            this.groupBoxBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBoxBill.Name = "groupBoxBill";
-            this.groupBoxBill.Size = new System.Drawing.Size(637, 348);
+            this.groupBoxBill.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxBill.Size = new System.Drawing.Size(849, 428);
             this.groupBoxBill.TabIndex = 51;
             this.groupBoxBill.TabStop = false;
             this.groupBoxBill.Text = "Hóa đơn dịch vụ";
@@ -611,9 +645,10 @@
             this.panel2.Controls.Add(this.dataGridViewBookRoom);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(3, 25);
+            this.panel2.Location = new System.Drawing.Point(4, 31);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(631, 320);
+            this.panel2.Size = new System.Drawing.Size(841, 393);
             this.panel2.TabIndex = 39;
             // 
             // listViewUseService
@@ -632,8 +667,9 @@
             this.listViewUseService.GridLines = true;
             this.listViewUseService.HideSelection = false;
             this.listViewUseService.Location = new System.Drawing.Point(0, 0);
+            this.listViewUseService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listViewUseService.Name = "listViewUseService";
-            this.listViewUseService.Size = new System.Drawing.Size(631, 320);
+            this.listViewUseService.Size = new System.Drawing.Size(841, 393);
             this.listViewUseService.TabIndex = 8;
             this.listViewUseService.UseCompatibleStateImageBehavior = false;
             this.listViewUseService.View = System.Windows.Forms.View.Details;
@@ -694,7 +730,7 @@
             this.dataGridViewBookRoom.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewBookRoom.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dataGridViewBookRoom.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewBookRoom.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dataGridViewBookRoom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridViewBookRoom.Name = "dataGridViewBookRoom";
             this.dataGridViewBookRoom.ReadOnly = true;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -712,7 +748,7 @@
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewBookRoom.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewBookRoom.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridViewBookRoom.Size = new System.Drawing.Size(631, 320);
+            this.dataGridViewBookRoom.Size = new System.Drawing.Size(841, 393);
             this.dataGridViewBookRoom.StandardTab = true;
             this.dataGridViewBookRoom.TabIndex = 7;
             // 
@@ -721,9 +757,11 @@
             this.groupBillRoom.Controls.Add(this.listViewBillRoom);
             this.groupBillRoom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBillRoom.ForeColor = System.Drawing.Color.SteelBlue;
-            this.groupBillRoom.Location = new System.Drawing.Point(611, 51);
+            this.groupBillRoom.Location = new System.Drawing.Point(815, 63);
+            this.groupBillRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBillRoom.Name = "groupBillRoom";
-            this.groupBillRoom.Size = new System.Drawing.Size(638, 70);
+            this.groupBillRoom.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBillRoom.Size = new System.Drawing.Size(851, 86);
             this.groupBillRoom.TabIndex = 53;
             this.groupBillRoom.TabStop = false;
             this.groupBillRoom.Text = "Hóa đơn tiền phòng";
@@ -746,9 +784,10 @@
             this.listViewBillRoom.FullRowSelect = true;
             this.listViewBillRoom.GridLines = true;
             this.listViewBillRoom.HideSelection = false;
-            this.listViewBillRoom.Location = new System.Drawing.Point(3, 25);
+            this.listViewBillRoom.Location = new System.Drawing.Point(4, 31);
+            this.listViewBillRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listViewBillRoom.Name = "listViewBillRoom";
-            this.listViewBillRoom.Size = new System.Drawing.Size(632, 42);
+            this.listViewBillRoom.Size = new System.Drawing.Size(843, 51);
             this.listViewBillRoom.TabIndex = 9;
             this.listViewBillRoom.UseCompatibleStateImageBehavior = false;
             this.listViewBillRoom.View = System.Windows.Forms.View.Details;
@@ -799,9 +838,11 @@
             this.groupBox2.Controls.Add(this.listViewSurcharge);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.groupBox2.Location = new System.Drawing.Point(611, 124);
+            this.groupBox2.Location = new System.Drawing.Point(815, 153);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(638, 135);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(851, 166);
             this.groupBox2.TabIndex = 54;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chính sách phụ thu";
@@ -821,9 +862,10 @@
             this.listViewSurcharge.FullRowSelect = true;
             this.listViewSurcharge.GridLines = true;
             this.listViewSurcharge.HideSelection = false;
-            this.listViewSurcharge.Location = new System.Drawing.Point(3, 25);
+            this.listViewSurcharge.Location = new System.Drawing.Point(4, 31);
+            this.listViewSurcharge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listViewSurcharge.Name = "listViewSurcharge";
-            this.listViewSurcharge.Size = new System.Drawing.Size(632, 107);
+            this.listViewSurcharge.Size = new System.Drawing.Size(843, 131);
             this.listViewSurcharge.TabIndex = 9;
             this.listViewSurcharge.UseCompatibleStateImageBehavior = false;
             this.listViewSurcharge.View = System.Windows.Forms.View.Details;
@@ -850,10 +892,10 @@
             // 
             // fUseService
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1255, 615);
+            this.ClientSize = new System.Drawing.Size(1673, 757);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBillRoom);
             this.Controls.Add(this.groupBoxBill);
@@ -865,6 +907,7 @@
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fUseService";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fUseService";
