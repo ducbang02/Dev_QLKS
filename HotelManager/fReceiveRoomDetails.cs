@@ -48,9 +48,9 @@ namespace HotelManager
             
             //Kiểm tra số lượng khách hàng hiện tại trong DataGridView
             int currentCustomerCount = dataGridView.Rows.Count;
-            MessageBox.Show($"{currentCustomerCount}");
+           
             DataTable result = ParameterDAO.Instance.GetMaxPersonByRoomName(txbRoomName.Text);
-            MessageBox.Show($"{txbRoomName.Text}");
+            
             Double maxPerson = (Double)result.Rows[0]["MaxPerson"]; // Số lượng tối đa
             
             if (currentCustomerCount >= maxPerson)

@@ -66,6 +66,7 @@ namespace HotelManager
             try
             {
                 Customer customer = GetCustomerNow();
+                
                 if (CustomerDAO.Instance.InsertCustomer(customer))
                 {
                     MessageBox.Show("Thêm thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

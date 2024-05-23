@@ -134,5 +134,10 @@ namespace HotelManager
             if (printDialog1.ShowDialog() == DialogResult.OK)
                 printDocument1.Print();
         }
+
+        private void groupBox6_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

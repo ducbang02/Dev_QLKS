@@ -5,6 +5,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace DAO
 {
@@ -17,14 +19,48 @@ namespace DAO
         {
             return DataProvider.Instance.ExecuteQuery("USP_LoadFullRoom");
         }
+        //public bool InsertRoom(Room roomNow)
+        //{
+        //    return InsertRoom(roomNow);
+        //}
         public bool InsertRoom(Room roomNow)
         {
-            return InsertRoom(roomNow.Name, roomNow.IdRoomType, roomNow.IdStatusRoom);
-        }
-        public bool InsertRoom(string roomName, string idRoomType, int idStatusRoom)
-        {
-            string query = "USP_InsertRoom @nameRoom , @idRoomType , @idStatusRoom";
-            return DataProvider.Instance.ExecuteNoneQuery(query, new object[] { roomName, idRoomType, idStatusRoom }) > 0;
+            string query = "INSERT INTO dbo.Room(ID,Name, IDRoomType, IDStatusRoom) VALUES (@id, @nameRoom, @idRoomType, @idStatusRoom)";
+            //MessageBox.Show($"SQL Query: {query}");
+            MessageBox.Show($"SQL Query: {roomNow.Id}, {roomNow.Name }, {roomNow.IdRoomType }, {roomNow.IdStatusRoom}");
+            try
+            {
+                // Thực thi câu lệnh SQL và kiểm tra số lượng hàng bị ảnh hưởng
+                int rowsAffected = DataProvider.Instance.ExecuteNoneQuery(query, new object[] { roomNow.Id, roomNow.Name, roomNow.IdRoomType, roomNow.IdStatusRoom });
+
+                if (rowsAffected > 0)
+                {
+                    // Nếu có hàng bị ảnh hưởng, thông báo thành công
+                    MessageBox.Show("Câu lệnh đã chạy thành công.", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    // Nếu không, báo rằng không có thay đổi
+                    MessageBox.Show("Không có thay đổi nào được thực hiện.", "Thông tin", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (SqlException sqlEx)
+            {
+                // Xử lý các lỗi liên quan đến SQL
+                MessageBox.Show($"Lỗi SQL xảy ra: {sqlEx.Message}\nMã lỗi: {sqlEx.Number}", "Lỗi SQL", MessageBoxButtons.OK, MessageBoxIcon.Error); 
+            }
+            catch (ArgumentException argEx)
+            {
+                // Xử lý các lỗi liên quan đến tham số không hợp lệ
+                MessageBox.Show("Lỗi tham số không hợp lệ: " + argEx.Message, "Lỗi tham số", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                // Xử lý các lỗi khác
+                MessageBox.Show("Có lỗi xảy ra: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return DataProvider.Instance.ExecuteNoneQuery(query, new object[] { roomNow.Id, roomNow.Name, roomNow.IdRoomType, roomNow.IdStatusRoom }) > 0;
+                
         }
         public bool UpdateCustomer(Room roomNow)
         {

@@ -40,6 +40,7 @@ namespace HotelManager
         {
             Room room = new Room();
             fStaff.Trim(new Bunifu.Framework.UI.BunifuMetroTextbox[] { txbNameRoom });
+            room.Id = GetAutomaticID();
             room.Name = txbNameRoom.Text;
             int index = comboBoxRoomType.SelectedIndex;
             room.IdStatusRoom = 1;
@@ -56,6 +57,7 @@ namespace HotelManager
             try
             {
                 Room roomNow = GetRoomNow();
+                //MessageBox.Show($"{roomNow.Id}, {roomNow.Name}, {roomNow.IdRoomType}, {roomNow.IdStatusRoom }");
                 if (RoomDAO.Instance.InsertRoom(roomNow))
                 {
                     txbNameRoom.Text = string.Empty;
@@ -64,9 +66,9 @@ namespace HotelManager
                 else
                     MessageBox.Show("Phòng này đã tồn tại(Trùng mã  phòng)", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Lỗi không thêm được phòng này", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Lỗi không thêm được phòng này {ex.Message}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void btnAddCustomer_Click(object sender, EventArgs e)
@@ -88,6 +90,10 @@ namespace HotelManager
         private void btnClose__Click(object sender, EventArgs e)
         {
             Close();
+        }
+        private string GetAutomaticID()
+        {
+            return GetIDAutomaticDAO.Instance.Actomatic_ID("Room", "ID");
         }
     }
 }
