@@ -71,7 +71,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(9, 54);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(1008, 12);
             this.bunifuSeparator1.TabIndex = 32;
@@ -82,7 +82,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.HotPink;
             this.label2.Location = new System.Drawing.Point(11, 10);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -108,11 +108,11 @@
             this.groupBox6.Controls.Add(this.label19);
             this.groupBox6.Controls.Add(this.label21);
             this.groupBox6.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox6.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox6.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox6.Location = new System.Drawing.Point(9, 64);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.Size = new System.Drawing.Size(317, 314);
             this.groupBox6.TabIndex = 34;
             this.groupBox6.TabStop = false;
@@ -130,7 +130,7 @@
             this.txbRoomName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbRoomName.isPassword = false;
             this.txbRoomName.Location = new System.Drawing.Point(25, 128);
-            this.txbRoomName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbRoomName.Margin = new System.Windows.Forms.Padding(5);
             this.txbRoomName.Name = "txbRoomName";
             this.txbRoomName.Size = new System.Drawing.Size(271, 36);
             this.txbRoomName.TabIndex = 50;
@@ -140,7 +140,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label15.ForeColor = System.Drawing.Color.HotPink;
             this.label15.Location = new System.Drawing.Point(23, 101);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
@@ -160,7 +160,7 @@
             this.txbIDReceiveRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDReceiveRoom.isPassword = false;
             this.txbIDReceiveRoom.Location = new System.Drawing.Point(24, 60);
-            this.txbIDReceiveRoom.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbIDReceiveRoom.Margin = new System.Windows.Forms.Padding(5);
             this.txbIDReceiveRoom.Name = "txbIDReceiveRoom";
             this.txbIDReceiveRoom.Size = new System.Drawing.Size(271, 36);
             this.txbIDReceiveRoom.TabIndex = 49;
@@ -170,7 +170,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label16.ForeColor = System.Drawing.Color.HotPink;
             this.label16.Location = new System.Drawing.Point(21, 33);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
@@ -190,7 +190,7 @@
             this.txbDateCheckOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbDateCheckOut.isPassword = false;
             this.txbDateCheckOut.Location = new System.Drawing.Point(24, 261);
-            this.txbDateCheckOut.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbDateCheckOut.Margin = new System.Windows.Forms.Padding(5);
             this.txbDateCheckOut.Name = "txbDateCheckOut";
             this.txbDateCheckOut.Size = new System.Drawing.Size(271, 36);
             this.txbDateCheckOut.TabIndex = 40;
@@ -208,7 +208,7 @@
             this.txbDateCheckIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbDateCheckIn.isPassword = false;
             this.txbDateCheckIn.Location = new System.Drawing.Point(24, 194);
-            this.txbDateCheckIn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbDateCheckIn.Margin = new System.Windows.Forms.Padding(5);
             this.txbDateCheckIn.Name = "txbDateCheckIn";
             this.txbDateCheckIn.Size = new System.Drawing.Size(271, 36);
             this.txbDateCheckIn.TabIndex = 36;
@@ -218,7 +218,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label19.ForeColor = System.Drawing.Color.HotPink;
             this.label19.Location = new System.Drawing.Point(19, 231);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
@@ -230,7 +230,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label21.ForeColor = System.Drawing.Color.HotPink;
             this.label21.Location = new System.Drawing.Point(19, 165);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
@@ -243,11 +243,11 @@
             this.groupBox5.Controls.Add(this.btnClose_);
             this.groupBox5.Controls.Add(this.btnAddCustomer);
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox5.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox5.Location = new System.Drawing.Point(9, 379);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(317, 170);
             this.groupBox5.TabIndex = 46;
             this.groupBox5.TabStop = false;
@@ -257,7 +257,7 @@
             // 
             this.btnClose_.ActiveBorderThickness = 1;
             this.btnClose_.ActiveCornerRadius = 20;
-            this.btnClose_.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnClose_.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnClose_.ActiveForecolor = System.Drawing.Color.White;
             this.btnClose_.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose_.BackColor = System.Drawing.Color.White;
@@ -265,11 +265,11 @@
             this.btnClose_.ButtonText = "Đóng";
             this.btnClose_.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose_.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose_.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnClose_.ForeColor = System.Drawing.Color.HotPink;
             this.btnClose_.IdleBorderThickness = 1;
             this.btnClose_.IdleCornerRadius = 20;
             this.btnClose_.IdleFillColor = System.Drawing.Color.White;
-            this.btnClose_.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnClose_.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnClose_.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose_.Location = new System.Drawing.Point(25, 98);
             this.btnClose_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -283,7 +283,7 @@
             // 
             this.btnAddCustomer.ActiveBorderThickness = 1;
             this.btnAddCustomer.ActiveCornerRadius = 20;
-            this.btnAddCustomer.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnAddCustomer.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnAddCustomer.ActiveForecolor = System.Drawing.Color.White;
             this.btnAddCustomer.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnAddCustomer.BackColor = System.Drawing.Color.White;
@@ -291,11 +291,11 @@
             this.btnAddCustomer.ButtonText = "Đổi Phòng";
             this.btnAddCustomer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddCustomer.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddCustomer.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnAddCustomer.ForeColor = System.Drawing.Color.HotPink;
             this.btnAddCustomer.IdleBorderThickness = 1;
             this.btnAddCustomer.IdleCornerRadius = 20;
             this.btnAddCustomer.IdleFillColor = System.Drawing.Color.White;
-            this.btnAddCustomer.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnAddCustomer.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnAddCustomer.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnAddCustomer.Location = new System.Drawing.Point(25, 37);
             this.btnAddCustomer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -309,11 +309,11 @@
             // 
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox1.Location = new System.Drawing.Point(335, 64);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(683, 485);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
@@ -328,7 +328,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(4, 31);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(675, 450);
             this.panel1.TabIndex = 39;
@@ -337,7 +337,7 @@
             // 
             this.bunifuThinButton23.ActiveBorderThickness = 1;
             this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.LightPink;
             this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton23.BackColor = System.Drawing.Color.White;
@@ -345,11 +345,11 @@
             this.bunifuThinButton23.ButtonText = "Cập Nhật Khách Hàng";
             this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton23.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton23.ForeColor = System.Drawing.Color.HotPink;
             this.bunifuThinButton23.IdleBorderThickness = 1;
             this.bunifuThinButton23.IdleCornerRadius = 20;
             this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.HotPink;
             this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton23.Location = new System.Drawing.Point(451, 383);
             this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -363,7 +363,7 @@
             // 
             this.bunifuThinButton22.ActiveBorderThickness = 1;
             this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.LightPink;
             this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton22.BackColor = System.Drawing.Color.White;
@@ -371,11 +371,11 @@
             this.bunifuThinButton22.ButtonText = "Xóa Khách Hàng";
             this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton22.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton22.ForeColor = System.Drawing.Color.HotPink;
             this.bunifuThinButton22.IdleBorderThickness = 1;
             this.bunifuThinButton22.IdleCornerRadius = 20;
             this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.HotPink;
             this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton22.Location = new System.Drawing.Point(231, 383);
             this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -389,7 +389,7 @@
             // 
             this.bunifuThinButton21.ActiveBorderThickness = 1;
             this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.LightPink;
             this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
@@ -397,11 +397,11 @@
             this.bunifuThinButton21.ButtonText = "Thêm Khách Hàng";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton21.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.HotPink;
             this.bunifuThinButton21.IdleBorderThickness = 1;
             this.bunifuThinButton21.IdleCornerRadius = 20;
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.HotPink;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton21.Location = new System.Drawing.Point(9, 383);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -436,7 +436,7 @@
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.HotPink;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -477,7 +477,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(1000, 4);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -498,9 +498,10 @@
             this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label2);
+            this.ForeColor = System.Drawing.Color.HotPink;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fReceiveRoomDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fReceiveRoomDetails";

@@ -106,7 +106,7 @@
             this.groupBox3.Controls.Add(this.btnSearch);
             this.groupBox3.Controls.Add(this.btnCancel);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox3.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox3.Location = new System.Drawing.Point(5, 56);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(220, 143);
@@ -136,10 +136,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label5.ForeColor = System.Drawing.Color.HotPink;
             this.label5.Location = new System.Drawing.Point(6, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 20);
+            this.label5.Size = new System.Drawing.Size(141, 25);
             this.label5.TabIndex = 28;
             this.label5.Text = "Tên loại phòng:";
             // 
@@ -147,7 +147,7 @@
             // 
             this.btnSearch.ActiveBorderThickness = 1;
             this.btnSearch.ActiveCornerRadius = 1;
-            this.btnSearch.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnSearch.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnSearch.ActiveForecolor = System.Drawing.Color.White;
             this.btnSearch.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnSearch.BackColor = System.Drawing.Color.White;
@@ -155,11 +155,11 @@
             this.btnSearch.ButtonText = "Tìm Kiếm";
             this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnSearch.ForeColor = System.Drawing.Color.HotPink;
             this.btnSearch.IdleBorderThickness = 1;
             this.btnSearch.IdleCornerRadius = 1;
             this.btnSearch.IdleFillColor = System.Drawing.Color.White;
-            this.btnSearch.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnSearch.IdleForecolor = System.Drawing.Color.LightPink;
             this.btnSearch.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnSearch.Location = new System.Drawing.Point(23, 91);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -201,7 +201,7 @@
             this.groupBox1.Controls.Add(this.dataGridViewRoomType);
             this.groupBox1.Controls.Add(this.bindingCustomerType);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox1.Location = new System.Drawing.Point(231, 56);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(545, 541);
@@ -235,14 +235,14 @@
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.HotPink;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SteelBlue;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewRoomType.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewRoomType.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewRoomType.GridColor = System.Drawing.Color.White;
-            this.dataGridViewRoomType.Location = new System.Drawing.Point(3, 50);
+            this.dataGridViewRoomType.Location = new System.Drawing.Point(3, 55);
             this.dataGridViewRoomType.Name = "dataGridViewRoomType";
             this.dataGridViewRoomType.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -260,7 +260,7 @@
             this.dataGridViewRoomType.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dataGridViewRoomType.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewRoomType.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewRoomType.Size = new System.Drawing.Size(539, 488);
+            this.dataGridViewRoomType.Size = new System.Drawing.Size(539, 483);
             this.dataGridViewRoomType.TabIndex = 28;
             this.dataGridViewRoomType.SelectionChanged += new System.EventHandler(this.DataGridViewRoomType_SelectionChanged);
             // 
@@ -271,7 +271,7 @@
             this.colID.HeaderText = "Mã";
             this.colID.Name = "colID";
             this.colID.ReadOnly = true;
-            this.colID.Width = 57;
+            this.colID.Width = 69;
             // 
             // colName
             // 
@@ -281,7 +281,7 @@
             this.colName.HeaderText = "Tên Loại Phòng";
             this.colName.Name = "colName";
             this.colName.ReadOnly = true;
-            this.colName.Width = 140;
+            this.colName.Width = 173;
             // 
             // colLimitPerson
             // 
@@ -290,7 +290,7 @@
             this.colLimitPerson.HeaderText = "Số người tối đa";
             this.colLimitPerson.Name = "colLimitPerson";
             this.colLimitPerson.ReadOnly = true;
-            this.colLimitPerson.Width = 141;
+            this.colLimitPerson.Width = 177;
             // 
             // colPrice
             // 
@@ -313,6 +313,7 @@
             this.bindingCustomerType.AddNewItem = null;
             this.bindingCustomerType.CountItem = this.bindingNavigatorCountItem;
             this.bindingCustomerType.DeleteItem = null;
+            this.bindingCustomerType.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.bindingCustomerType.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
@@ -324,7 +325,7 @@
             this.bindingNavigatorMoveLastItem,
             this.bindingNavigatorSeparator2,
             this.toolStripLabel1});
-            this.bindingCustomerType.Location = new System.Drawing.Point(3, 25);
+            this.bindingCustomerType.Location = new System.Drawing.Point(3, 30);
             this.bindingCustomerType.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.bindingCustomerType.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.bindingCustomerType.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -338,7 +339,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 22);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -371,7 +372,6 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(58, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -410,7 +410,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(39, 22);
             this.toolStripLabel1.Text = "Xuất";
             this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
             // 
@@ -425,10 +425,10 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.label16.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label16.ForeColor = System.Drawing.Color.HotPink;
             this.label16.Location = new System.Drawing.Point(19, 21);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(80, 20);
+            this.label16.Size = new System.Drawing.Size(103, 25);
             this.label16.TabIndex = 22;
             this.label16.Text = "Mã phòng:";
             // 
@@ -455,10 +455,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.HotPink;
             this.label1.Location = new System.Drawing.Point(19, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 20);
+            this.label1.Size = new System.Drawing.Size(141, 25);
             this.label1.TabIndex = 24;
             this.label1.Text = "Tên loại phòng:";
             // 
@@ -489,7 +489,7 @@
             this.label3.ForeColor = System.Drawing.Color.SteelBlue;
             this.label3.Location = new System.Drawing.Point(19, 197);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 20);
+            this.label3.Size = new System.Drawing.Size(44, 25);
             this.label3.TabIndex = 26;
             this.label3.Text = "Giá:";
             // 
@@ -497,10 +497,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.HotPink;
             this.label2.Location = new System.Drawing.Point(19, 139);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 20);
+            this.label2.Size = new System.Drawing.Size(144, 25);
             this.label2.TabIndex = 28;
             this.label2.Text = "Số người tối đa:";
             // 
@@ -516,7 +516,7 @@
             this.groupRoomType.Controls.Add(this.label16);
             this.groupRoomType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupRoomType.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupRoomType.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupRoomType.ForeColor = System.Drawing.Color.HotPink;
             this.groupRoomType.Location = new System.Drawing.Point(5, 201);
             this.groupRoomType.Name = "groupRoomType";
             this.groupRoomType.Size = new System.Drawing.Size(220, 265);
@@ -527,10 +527,10 @@
             // comboboxID
             // 
             this.comboboxID.FormattingEnabled = true;
-            this.comboboxID.ItemHeight = 23;
+            this.comboboxID.ItemHeight = 24;
             this.comboboxID.Location = new System.Drawing.Point(19, 44);
             this.comboboxID.Name = "comboboxID";
-            this.comboboxID.Size = new System.Drawing.Size(175, 29);
+            this.comboboxID.Size = new System.Drawing.Size(175, 30);
             this.comboboxID.Style = MetroFramework.MetroColorStyle.Blue;
             this.comboboxID.TabIndex = 30;
             this.comboboxID.UseSelectable = true;
@@ -560,7 +560,7 @@
             this.groupBox2.Controls.Add(this.btnUpdate);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox2.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox2.Location = new System.Drawing.Point(5, 468);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(220, 129);
@@ -572,7 +572,7 @@
             // 
             this.btnClose.ActiveBorderThickness = 1;
             this.btnClose.ActiveCornerRadius = 20;
-            this.btnClose.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnClose.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnClose.ActiveForecolor = System.Drawing.Color.White;
             this.btnClose.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose.BackColor = System.Drawing.Color.White;
@@ -580,11 +580,11 @@
             this.btnClose.ButtonText = "Đóng";
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.btnClose.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnClose.ForeColor = System.Drawing.Color.HotPink;
             this.btnClose.IdleBorderThickness = 1;
             this.btnClose.IdleCornerRadius = 20;
             this.btnClose.IdleFillColor = System.Drawing.Color.White;
-            this.btnClose.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnClose.IdleForecolor = System.Drawing.Color.LightPink;
             this.btnClose.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose.Location = new System.Drawing.Point(19, 76);
             this.btnClose.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -599,7 +599,7 @@
             // 
             this.btnUpdate.ActiveBorderThickness = 1;
             this.btnUpdate.ActiveCornerRadius = 20;
-            this.btnUpdate.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnUpdate.ActiveForecolor = System.Drawing.Color.White;
             this.btnUpdate.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnUpdate.BackColor = System.Drawing.Color.White;
@@ -607,11 +607,11 @@
             this.btnUpdate.ButtonText = "Cập Nhật";
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.btnUpdate.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.ForeColor = System.Drawing.Color.HotPink;
             this.btnUpdate.IdleBorderThickness = 1;
             this.btnUpdate.IdleCornerRadius = 20;
             this.btnUpdate.IdleFillColor = System.Drawing.Color.White;
-            this.btnUpdate.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.IdleForecolor = System.Drawing.Color.LightPink;
             this.btnUpdate.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnUpdate.Location = new System.Drawing.Point(19, 26);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -627,10 +627,10 @@
             this.labelName.AutoSize = true;
             this.labelName.BackColor = System.Drawing.Color.Transparent;
             this.labelName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelName.ForeColor = System.Drawing.Color.SteelBlue;
+            this.labelName.ForeColor = System.Drawing.Color.HotPink;
             this.labelName.Location = new System.Drawing.Point(9, 6);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(249, 37);
+            this.labelName.Size = new System.Drawing.Size(310, 46);
             this.labelName.TabIndex = 49;
             this.labelName.Text = "Quản Lí Loại Phòng";
             this.labelName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -641,6 +641,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(5, 43);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(771, 16);
             this.bunifuSeparator1.TabIndex = 58;
@@ -654,7 +655,7 @@
             // 
             // fRoomType
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(781, 602);

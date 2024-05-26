@@ -54,6 +54,14 @@
             this.comboBoxRoomType = new MetroFramework.Controls.MetroComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridViewRoom = new System.Windows.Forms.DataGridView();
+            this.colIDRoom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNameRoomType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colLimitPerson = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colIdRoomType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colIdStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingRoom = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -73,14 +81,6 @@
             this.btnRoomType = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnUpdate = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
-            this.colIDRoom = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colNameRoomType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colLimitPerson = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colIdRoomType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colIdStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox3.SuspendLayout();
             this.groupRoom.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -105,7 +105,7 @@
             this.groupBox3.Controls.Add(this.txbSearch);
             this.groupBox3.Controls.Add(this.btnCancel);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox3.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox3.Location = new System.Drawing.Point(7, 65);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
@@ -127,7 +127,7 @@
             this.btnSearch.ButtonText = "Tìm Kiếm";
             this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnSearch.ForeColor = System.Drawing.Color.HotPink;
             this.btnSearch.IdleBorderThickness = 1;
             this.btnSearch.IdleCornerRadius = 20;
             this.btnSearch.IdleFillColor = System.Drawing.Color.White;
@@ -145,7 +145,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label5.ForeColor = System.Drawing.Color.HotPink;
             this.label5.Location = new System.Drawing.Point(29, 25);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -214,7 +214,7 @@
             this.groupRoom.Controls.Add(this.comboBoxRoomType);
             this.groupRoom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupRoom.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupRoom.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupRoom.ForeColor = System.Drawing.Color.HotPink;
             this.groupRoom.Location = new System.Drawing.Point(7, 183);
             this.groupRoom.Margin = new System.Windows.Forms.Padding(4);
             this.groupRoom.Name = "groupRoom";
@@ -240,7 +240,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.HotPink;
             this.label2.Location = new System.Drawing.Point(329, 164);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -252,7 +252,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label16.ForeColor = System.Drawing.Color.HotPink;
             this.label16.Location = new System.Drawing.Point(29, 26);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
@@ -264,7 +264,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label20.ForeColor = System.Drawing.Color.HotPink;
             this.label20.Location = new System.Drawing.Point(329, 26);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
@@ -295,7 +295,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label13.ForeColor = System.Drawing.Color.HotPink;
             this.label13.Location = new System.Drawing.Point(29, 164);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
@@ -307,7 +307,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label15.ForeColor = System.Drawing.Color.HotPink;
             this.label15.Location = new System.Drawing.Point(29, 95);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
@@ -319,7 +319,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.HotPink;
             this.label1.Location = new System.Drawing.Point(329, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -407,7 +407,7 @@
             this.groupBox1.Controls.Add(this.dataGridViewRoom);
             this.groupBox1.Controls.Add(this.bindingRoom);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox1.Location = new System.Drawing.Point(607, 65);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
@@ -446,7 +446,7 @@
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.HotPink;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SteelBlue;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -473,6 +473,76 @@
             this.dataGridViewRoom.Size = new System.Drawing.Size(861, 447);
             this.dataGridViewRoom.TabIndex = 28;
             this.dataGridViewRoom.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewRoom_CellContentClick);
+            // 
+            // colIDRoom
+            // 
+            this.colIDRoom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.colIDRoom.DataPropertyName = "id";
+            this.colIDRoom.FillWeight = 90F;
+            this.colIDRoom.HeaderText = "Mã";
+            this.colIDRoom.Name = "colIDRoom";
+            this.colIDRoom.ReadOnly = true;
+            this.colIDRoom.Width = 69;
+            // 
+            // colName
+            // 
+            this.colName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.colName.DataPropertyName = "name";
+            this.colName.HeaderText = "Tên";
+            this.colName.Name = "colName";
+            this.colName.ReadOnly = true;
+            this.colName.Width = 70;
+            // 
+            // colNameRoomType
+            // 
+            this.colNameRoomType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.colNameRoomType.DataPropertyName = "nameRoomType";
+            this.colNameRoomType.HeaderText = "Loại Phòng";
+            this.colNameRoomType.Name = "colNameRoomType";
+            this.colNameRoomType.ReadOnly = true;
+            this.colNameRoomType.Width = 139;
+            // 
+            // colPrice
+            // 
+            this.colPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.colPrice.DataPropertyName = "price_New";
+            this.colPrice.HeaderText = "Giá";
+            this.colPrice.Name = "colPrice";
+            this.colPrice.ReadOnly = true;
+            this.colPrice.Width = 70;
+            // 
+            // colLimitPerson
+            // 
+            this.colLimitPerson.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.colLimitPerson.DataPropertyName = "limitPerson";
+            this.colLimitPerson.HeaderText = "Đơn giá từng phòng";
+            this.colLimitPerson.Name = "colLimitPerson";
+            this.colLimitPerson.ReadOnly = true;
+            this.colLimitPerson.Width = 220;
+            // 
+            // colStatus
+            // 
+            this.colStatus.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colStatus.DataPropertyName = "nameStatusRoom";
+            this.colStatus.HeaderText = "Trạng Thái";
+            this.colStatus.Name = "colStatus";
+            this.colStatus.ReadOnly = true;
+            // 
+            // colIdRoomType
+            // 
+            this.colIdRoomType.DataPropertyName = "idRoomType";
+            this.colIdRoomType.HeaderText = "";
+            this.colIdRoomType.Name = "colIdRoomType";
+            this.colIdRoomType.ReadOnly = true;
+            this.colIdRoomType.Visible = false;
+            // 
+            // colIdStatus
+            // 
+            this.colIdStatus.DataPropertyName = "idStatusRoom";
+            this.colIdStatus.HeaderText = "";
+            this.colIdStatus.Name = "colIdStatus";
+            this.colIdStatus.ReadOnly = true;
+            this.colIdStatus.Visible = false;
             // 
             // bindingRoom
             // 
@@ -584,7 +654,7 @@
             this.labelName.AutoSize = true;
             this.labelName.BackColor = System.Drawing.Color.Transparent;
             this.labelName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelName.ForeColor = System.Drawing.Color.SteelBlue;
+            this.labelName.ForeColor = System.Drawing.Color.HotPink;
             this.labelName.Location = new System.Drawing.Point(12, 7);
             this.labelName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelName.Name = "labelName";
@@ -619,7 +689,7 @@
             this.groupBox4.Controls.Add(this.btnUpdate);
             this.groupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox4.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox4.Location = new System.Drawing.Point(7, 431);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
@@ -633,7 +703,7 @@
             // 
             this.btnCLose1.ActiveBorderThickness = 1;
             this.btnCLose1.ActiveCornerRadius = 20;
-            this.btnCLose1.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnCLose1.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnCLose1.ActiveForecolor = System.Drawing.Color.White;
             this.btnCLose1.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnCLose1.BackColor = System.Drawing.Color.White;
@@ -641,11 +711,11 @@
             this.btnCLose1.ButtonText = "Đóng";
             this.btnCLose1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCLose1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCLose1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnCLose1.ForeColor = System.Drawing.Color.HotPink;
             this.btnCLose1.IdleBorderThickness = 1;
             this.btnCLose1.IdleCornerRadius = 15;
             this.btnCLose1.IdleFillColor = System.Drawing.Color.White;
-            this.btnCLose1.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnCLose1.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnCLose1.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnCLose1.Location = new System.Drawing.Point(329, 110);
             this.btnCLose1.Margin = new System.Windows.Forms.Padding(5);
@@ -660,7 +730,7 @@
             // 
             this.btnAddRoom.ActiveBorderThickness = 1;
             this.btnAddRoom.ActiveCornerRadius = 20;
-            this.btnAddRoom.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnAddRoom.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnAddRoom.ActiveForecolor = System.Drawing.Color.White;
             this.btnAddRoom.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnAddRoom.BackColor = System.Drawing.Color.White;
@@ -668,11 +738,11 @@
             this.btnAddRoom.ButtonText = "Thêm Phòng";
             this.btnAddRoom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddRoom.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnAddRoom.ForeColor = System.Drawing.Color.HotPink;
             this.btnAddRoom.IdleBorderThickness = 1;
             this.btnAddRoom.IdleCornerRadius = 15;
             this.btnAddRoom.IdleFillColor = System.Drawing.Color.White;
-            this.btnAddRoom.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnAddRoom.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnAddRoom.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnAddRoom.Location = new System.Drawing.Point(29, 43);
             this.btnAddRoom.Margin = new System.Windows.Forms.Padding(5);
@@ -687,7 +757,7 @@
             // 
             this.btnRoomType.ActiveBorderThickness = 1;
             this.btnRoomType.ActiveCornerRadius = 20;
-            this.btnRoomType.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnRoomType.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnRoomType.ActiveForecolor = System.Drawing.Color.White;
             this.btnRoomType.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnRoomType.BackColor = System.Drawing.Color.White;
@@ -695,11 +765,11 @@
             this.btnRoomType.ButtonText = "Sửa Loại Phòng";
             this.btnRoomType.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRoomType.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRoomType.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnRoomType.ForeColor = System.Drawing.Color.HotPink;
             this.btnRoomType.IdleBorderThickness = 1;
             this.btnRoomType.IdleCornerRadius = 15;
             this.btnRoomType.IdleFillColor = System.Drawing.Color.White;
-            this.btnRoomType.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnRoomType.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnRoomType.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnRoomType.Location = new System.Drawing.Point(329, 43);
             this.btnRoomType.Margin = new System.Windows.Forms.Padding(5);
@@ -714,7 +784,7 @@
             // 
             this.btnUpdate.ActiveBorderThickness = 1;
             this.btnUpdate.ActiveCornerRadius = 20;
-            this.btnUpdate.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnUpdate.ActiveForecolor = System.Drawing.Color.White;
             this.btnUpdate.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnUpdate.BackColor = System.Drawing.Color.White;
@@ -722,11 +792,11 @@
             this.btnUpdate.ButtonText = "Cập Nhật Phòng";
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.ForeColor = System.Drawing.Color.HotPink;
             this.btnUpdate.IdleBorderThickness = 1;
             this.btnUpdate.IdleCornerRadius = 15;
             this.btnUpdate.IdleFillColor = System.Drawing.Color.White;
-            this.btnUpdate.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnUpdate.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnUpdate.Location = new System.Drawing.Point(29, 112);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(5);
@@ -753,76 +823,6 @@
             this.btnClose.Zoom = 10;
             this.btnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
-            // colIDRoom
-            // 
-            this.colIDRoom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colIDRoom.DataPropertyName = "id";
-            this.colIDRoom.FillWeight = 90F;
-            this.colIDRoom.HeaderText = "Mã";
-            this.colIDRoom.Name = "colIDRoom";
-            this.colIDRoom.ReadOnly = true;
-            this.colIDRoom.Width = 69;
-            // 
-            // colName
-            // 
-            this.colName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colName.DataPropertyName = "name";
-            this.colName.HeaderText = "Tên";
-            this.colName.Name = "colName";
-            this.colName.ReadOnly = true;
-            this.colName.Width = 70;
-            // 
-            // colNameRoomType
-            // 
-            this.colNameRoomType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colNameRoomType.DataPropertyName = "nameRoomType";
-            this.colNameRoomType.HeaderText = "Loại Phòng";
-            this.colNameRoomType.Name = "colNameRoomType";
-            this.colNameRoomType.ReadOnly = true;
-            this.colNameRoomType.Width = 139;
-            // 
-            // colPrice
-            // 
-            this.colPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colPrice.DataPropertyName = "price_New";
-            this.colPrice.HeaderText = "Giá";
-            this.colPrice.Name = "colPrice";
-            this.colPrice.ReadOnly = true;
-            this.colPrice.Width = 70;
-            // 
-            // colLimitPerson
-            // 
-            this.colLimitPerson.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colLimitPerson.DataPropertyName = "limitPerson";
-            this.colLimitPerson.HeaderText = "Đơn giá từng phòng";
-            this.colLimitPerson.Name = "colLimitPerson";
-            this.colLimitPerson.ReadOnly = true;
-            this.colLimitPerson.Width = 220;
-            // 
-            // colStatus
-            // 
-            this.colStatus.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colStatus.DataPropertyName = "nameStatusRoom";
-            this.colStatus.HeaderText = "Trạng Thái";
-            this.colStatus.Name = "colStatus";
-            this.colStatus.ReadOnly = true;
-            // 
-            // colIdRoomType
-            // 
-            this.colIdRoomType.DataPropertyName = "idRoomType";
-            this.colIdRoomType.HeaderText = "";
-            this.colIdRoomType.Name = "colIdRoomType";
-            this.colIdRoomType.ReadOnly = true;
-            this.colIdRoomType.Visible = false;
-            // 
-            // colIdStatus
-            // 
-            this.colIdStatus.DataPropertyName = "idStatusRoom";
-            this.colIdStatus.HeaderText = "";
-            this.colIdStatus.Name = "colIdStatus";
-            this.colIdStatus.ReadOnly = true;
-            this.colIdStatus.Visible = false;
-            // 
             // fRoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -837,6 +837,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btnClose);
             this.DoubleBuffered = true;
+            this.ForeColor = System.Drawing.Color.HotPink;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;

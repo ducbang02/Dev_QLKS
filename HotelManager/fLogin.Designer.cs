@@ -55,7 +55,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.LightPink;
+            this.label2.ForeColor = System.Drawing.Color.HotPink;
             this.label2.Location = new System.Drawing.Point(82, 28);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -67,7 +67,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LightPink;
+            this.label1.ForeColor = System.Drawing.Color.HotPink;
             this.label1.Location = new System.Drawing.Point(86, 92);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -79,7 +79,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.LightPink;
+            this.label4.ForeColor = System.Drawing.Color.HotPink;
             this.label4.Location = new System.Drawing.Point(86, 184);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -141,7 +141,7 @@
             // 
             this.btnLogin.ActiveBorderThickness = 1;
             this.btnLogin.ActiveCornerRadius = 20;
-            this.btnLogin.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnLogin.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnLogin.ActiveForecolor = System.Drawing.Color.White;
             this.btnLogin.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnLogin.BackColor = System.Drawing.Color.White;
@@ -149,11 +149,11 @@
             this.btnLogin.ButtonText = "Đăng Nhập";
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.LightPink;
+            this.btnLogin.ForeColor = System.Drawing.Color.HotPink;
             this.btnLogin.IdleBorderThickness = 1;
             this.btnLogin.IdleCornerRadius = 20;
             this.btnLogin.IdleFillColor = System.Drawing.Color.White;
-            this.btnLogin.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnLogin.IdleForecolor = System.Drawing.Color.LightPink;
             this.btnLogin.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnLogin.Location = new System.Drawing.Point(92, 298);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -180,7 +180,7 @@
             // 
             this.btnExit_.ActiveBorderThickness = 1;
             this.btnExit_.ActiveCornerRadius = 20;
-            this.btnExit_.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnExit_.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnExit_.ActiveForecolor = System.Drawing.Color.White;
             this.btnExit_.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnExit_.BackColor = System.Drawing.Color.White;
@@ -188,11 +188,11 @@
             this.btnExit_.ButtonText = "Thoát";
             this.btnExit_.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit_.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit_.ForeColor = System.Drawing.Color.LightPink;
+            this.btnExit_.ForeColor = System.Drawing.Color.HotPink;
             this.btnExit_.IdleBorderThickness = 1;
             this.btnExit_.IdleCornerRadius = 20;
             this.btnExit_.IdleFillColor = System.Drawing.Color.White;
-            this.btnExit_.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnExit_.IdleForecolor = System.Drawing.Color.LightPink;
             this.btnExit_.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnExit_.Location = new System.Drawing.Point(92, 365);
             this.btnExit_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);

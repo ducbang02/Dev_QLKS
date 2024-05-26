@@ -106,7 +106,7 @@
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.btnCancel);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox3.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox3.Location = new System.Drawing.Point(5, 54);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(223, 140);
@@ -126,7 +126,7 @@
             this.btnSearch.ButtonText = "Tìm Kiếm";
             this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.btnSearch.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnSearch.ForeColor = System.Drawing.Color.HotPink;
             this.btnSearch.IdleBorderThickness = 1;
             this.btnSearch.IdleCornerRadius = 20;
             this.btnSearch.IdleFillColor = System.Drawing.Color.White;
@@ -162,10 +162,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label5.ForeColor = System.Drawing.Color.HotPink;
             this.label5.Location = new System.Drawing.Point(26, 24);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 20);
+            this.label5.Size = new System.Drawing.Size(147, 25);
             this.label5.TabIndex = 28;
             this.label5.Text = "Tên loại dịch vụ:";
             // 
@@ -205,7 +205,7 @@
             this.groupServiceType.Controls.Add(this.label16);
             this.groupServiceType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupServiceType.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupServiceType.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupServiceType.ForeColor = System.Drawing.Color.HotPink;
             this.groupServiceType.Location = new System.Drawing.Point(5, 195);
             this.groupServiceType.Name = "groupServiceType";
             this.groupServiceType.Size = new System.Drawing.Size(223, 160);
@@ -216,10 +216,10 @@
             // comboboxID
             // 
             this.comboboxID.FormattingEnabled = true;
-            this.comboboxID.ItemHeight = 23;
+            this.comboboxID.ItemHeight = 24;
             this.comboboxID.Location = new System.Drawing.Point(26, 48);
             this.comboboxID.Name = "comboboxID";
-            this.comboboxID.Size = new System.Drawing.Size(175, 29);
+            this.comboboxID.Size = new System.Drawing.Size(175, 30);
             this.comboboxID.Style = MetroFramework.MetroColorStyle.Blue;
             this.comboboxID.TabIndex = 0;
             this.comboboxID.UseSelectable = true;
@@ -228,10 +228,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.HotPink;
             this.label1.Location = new System.Drawing.Point(26, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 20);
+            this.label1.Size = new System.Drawing.Size(147, 25);
             this.label1.TabIndex = 24;
             this.label1.Text = "Tên loại dịch vụ:";
             // 
@@ -256,10 +256,10 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.label16.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label16.ForeColor = System.Drawing.Color.HotPink;
             this.label16.Location = new System.Drawing.Point(26, 25);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(113, 20);
+            this.label16.Size = new System.Drawing.Size(145, 25);
             this.label16.TabIndex = 22;
             this.label16.Text = "Mã loại dịch vụ:";
             // 
@@ -267,7 +267,7 @@
             // 
             this.btnUpdateServiceType.ActiveBorderThickness = 1;
             this.btnUpdateServiceType.ActiveCornerRadius = 20;
-            this.btnUpdateServiceType.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdateServiceType.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnUpdateServiceType.ActiveForecolor = System.Drawing.Color.White;
             this.btnUpdateServiceType.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnUpdateServiceType.BackColor = System.Drawing.Color.White;
@@ -275,11 +275,11 @@
             this.btnUpdateServiceType.ButtonText = "Cập Nhật";
             this.btnUpdateServiceType.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdateServiceType.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.btnUpdateServiceType.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdateServiceType.ForeColor = System.Drawing.Color.HotPink;
             this.btnUpdateServiceType.IdleBorderThickness = 1;
             this.btnUpdateServiceType.IdleCornerRadius = 20;
             this.btnUpdateServiceType.IdleFillColor = System.Drawing.Color.White;
-            this.btnUpdateServiceType.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnUpdateServiceType.IdleForecolor = System.Drawing.Color.LightPink;
             this.btnUpdateServiceType.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnUpdateServiceType.Location = new System.Drawing.Point(26, 71);
             this.btnUpdateServiceType.Margin = new System.Windows.Forms.Padding(6);
@@ -295,7 +295,7 @@
             this.groupBox1.Controls.Add(this.dataGridViewServiceType);
             this.groupBox1.Controls.Add(this.bindingServiceType);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox1.Location = new System.Drawing.Point(234, 54);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(549, 483);
@@ -325,14 +325,14 @@
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.HotPink;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SteelBlue;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewServiceType.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewServiceType.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewServiceType.GridColor = System.Drawing.Color.White;
-            this.dataGridViewServiceType.Location = new System.Drawing.Point(3, 50);
+            this.dataGridViewServiceType.Location = new System.Drawing.Point(3, 55);
             this.dataGridViewServiceType.Name = "dataGridViewServiceType";
             this.dataGridViewServiceType.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -348,7 +348,7 @@
             this.dataGridViewServiceType.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewServiceType.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewServiceType.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewServiceType.Size = new System.Drawing.Size(543, 430);
+            this.dataGridViewServiceType.Size = new System.Drawing.Size(543, 425);
             this.dataGridViewServiceType.TabIndex = 28;
             this.dataGridViewServiceType.SelectionChanged += new System.EventHandler(this.DataGridViewServiceType_SelectionChanged);
             // 
@@ -359,7 +359,7 @@
             this.colID.HeaderText = "Mã loại dịch vụ";
             this.colID.Name = "colID";
             this.colID.ReadOnly = true;
-            this.colID.Width = 140;
+            this.colID.Width = 174;
             // 
             // colName
             // 
@@ -375,6 +375,7 @@
             this.bindingServiceType.AddNewItem = null;
             this.bindingServiceType.CountItem = this.bindingNavigatorCountItem;
             this.bindingServiceType.DeleteItem = null;
+            this.bindingServiceType.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.bindingServiceType.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
@@ -386,7 +387,7 @@
             this.bindingNavigatorMoveLastItem,
             this.bindingNavigatorSeparator2,
             this.toolStripLabel1});
-            this.bindingServiceType.Location = new System.Drawing.Point(3, 25);
+            this.bindingServiceType.Location = new System.Drawing.Point(3, 30);
             this.bindingServiceType.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.bindingServiceType.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.bindingServiceType.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -400,7 +401,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 22);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -433,7 +434,6 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(58, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -472,7 +472,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(39, 22);
             this.toolStripLabel1.Text = "Xuất";
             this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
             // 
@@ -481,10 +481,10 @@
             this.labelName.AutoSize = true;
             this.labelName.BackColor = System.Drawing.Color.Transparent;
             this.labelName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelName.ForeColor = System.Drawing.Color.SteelBlue;
+            this.labelName.ForeColor = System.Drawing.Color.HotPink;
             this.labelName.Location = new System.Drawing.Point(9, 6);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(264, 37);
+            this.labelName.Size = new System.Drawing.Size(329, 46);
             this.labelName.TabIndex = 48;
             this.labelName.Text = "Quản Lí Loại Dịch Vụ";
             this.labelName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -492,9 +492,11 @@
             // bunifuSeparator1
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.ForeColor = System.Drawing.Color.HotPink;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(5, 43);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(778, 14);
             this.bunifuSeparator1.TabIndex = 56;
@@ -505,7 +507,7 @@
             // 
             this.btnCLose1.ActiveBorderThickness = 1;
             this.btnCLose1.ActiveCornerRadius = 20;
-            this.btnCLose1.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnCLose1.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnCLose1.ActiveForecolor = System.Drawing.Color.White;
             this.btnCLose1.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnCLose1.BackColor = System.Drawing.Color.White;
@@ -513,11 +515,11 @@
             this.btnCLose1.ButtonText = "Đóng";
             this.btnCLose1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCLose1.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.btnCLose1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnCLose1.ForeColor = System.Drawing.Color.HotPink;
             this.btnCLose1.IdleBorderThickness = 1;
             this.btnCLose1.IdleCornerRadius = 20;
             this.btnCLose1.IdleFillColor = System.Drawing.Color.White;
-            this.btnCLose1.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnCLose1.IdleForecolor = System.Drawing.Color.LightPink;
             this.btnCLose1.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnCLose1.Location = new System.Drawing.Point(26, 121);
             this.btnCLose1.Margin = new System.Windows.Forms.Padding(6);
@@ -535,7 +537,7 @@
             this.groupBox2.Controls.Add(this.btnUpdateServiceType);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.groupBox2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.groupBox2.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox2.Location = new System.Drawing.Point(5, 356);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(223, 181);
@@ -547,7 +549,7 @@
             // 
             this.btnInsert.ActiveBorderThickness = 1;
             this.btnInsert.ActiveCornerRadius = 20;
-            this.btnInsert.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnInsert.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnInsert.ActiveForecolor = System.Drawing.Color.White;
             this.btnInsert.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnInsert.BackColor = System.Drawing.Color.White;
@@ -555,11 +557,11 @@
             this.btnInsert.ButtonText = "Thêm";
             this.btnInsert.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInsert.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.btnInsert.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnInsert.ForeColor = System.Drawing.Color.HotPink;
             this.btnInsert.IdleBorderThickness = 1;
             this.btnInsert.IdleCornerRadius = 20;
             this.btnInsert.IdleFillColor = System.Drawing.Color.White;
-            this.btnInsert.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnInsert.IdleForecolor = System.Drawing.Color.LightPink;
             this.btnInsert.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnInsert.Location = new System.Drawing.Point(26, 21);
             this.btnInsert.Margin = new System.Windows.Forms.Padding(6);
@@ -577,7 +579,7 @@
             // 
             // fServiceType
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(788, 543);
