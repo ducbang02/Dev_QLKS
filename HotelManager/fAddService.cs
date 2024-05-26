@@ -138,5 +138,15 @@ namespace HotelManager
         {
             return GetIDAutomaticDAO.Instance.Actomatic_ID("Service", "ID");
         }
+
+        private void groupService_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

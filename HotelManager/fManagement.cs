@@ -201,14 +201,6 @@ namespace HotelManager
                MessageBox.Show( "Bạn không quyền truy cập.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
-        private void btnIntroduce_Click(object sender, EventArgs e)
-        {
-            
-            fAbout fAbout = new fAbout();
-            this.Hide();
-            fAbout.ShowDialog();
-            this.Show();
-        }
 
         private void title_Click(object sender, EventArgs e)
         {

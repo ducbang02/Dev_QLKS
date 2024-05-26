@@ -70,12 +70,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fAbout.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fAbout.Designer.cs">
-      <DependentUpon>fAbout.cs</DependentUpon>
-    </Compile>
     <Compile Include="fAccess.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -246,9 +240,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fAbout.resx">
-      <DependentUpon>fAbout.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fAccess.resx">
       <DependentUpon>fAccess.cs</DependentUpon>
     </EmbeddedResource>

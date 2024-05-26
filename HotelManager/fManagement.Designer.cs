@@ -99,8 +99,8 @@
             // metroTile17
             // 
             this.metroTile17.ActiveControl = null;
-            this.metroTile17.BackColor = System.Drawing.Color.SteelBlue;
-            this.metroTile17.ForeColor = System.Drawing.Color.White;
+            this.metroTile17.BackColor = System.Drawing.Color.LightPink;
+            this.metroTile17.ForeColor = System.Drawing.Color.Black;
             this.metroTile17.Location = new System.Drawing.Point(57, 526);
             this.metroTile17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroTile17.Name = "metroTile17";
@@ -119,8 +119,8 @@
             // metroTile16
             // 
             this.metroTile16.ActiveControl = null;
-            this.metroTile16.BackColor = System.Drawing.Color.SteelBlue;
-            this.metroTile16.ForeColor = System.Drawing.Color.White;
+            this.metroTile16.BackColor = System.Drawing.Color.LightPink;
+            this.metroTile16.ForeColor = System.Drawing.Color.Black;
             this.metroTile16.Location = new System.Drawing.Point(57, 352);
             this.metroTile16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroTile16.Name = "metroTile16";
@@ -139,8 +139,8 @@
             // metroTile13
             // 
             this.metroTile13.ActiveControl = null;
-            this.metroTile13.BackColor = System.Drawing.Color.SteelBlue;
-            this.metroTile13.ForeColor = System.Drawing.Color.White;
+            this.metroTile13.BackColor = System.Drawing.Color.LightPink;
+            this.metroTile13.ForeColor = System.Drawing.Color.Black;
             this.metroTile13.Location = new System.Drawing.Point(975, 526);
             this.metroTile13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroTile13.Name = "metroTile13";
@@ -159,8 +159,8 @@
             // title
             // 
             this.title.ActiveControl = null;
-            this.title.BackColor = System.Drawing.Color.SteelBlue;
-            this.title.ForeColor = System.Drawing.Color.White;
+            this.title.BackColor = System.Drawing.Color.LightPink;
+            this.title.ForeColor = System.Drawing.Color.Black;
             this.title.Location = new System.Drawing.Point(670, 526);
             this.title.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.title.Name = "title";
@@ -179,8 +179,8 @@
             // titleManageRoom
             // 
             this.titleManageRoom.ActiveControl = null;
-            this.titleManageRoom.BackColor = System.Drawing.Color.SteelBlue;
-            this.titleManageRoom.ForeColor = System.Drawing.Color.White;
+            this.titleManageRoom.BackColor = System.Drawing.Color.LightPink;
+            this.titleManageRoom.ForeColor = System.Drawing.Color.Black;
             this.titleManageRoom.Location = new System.Drawing.Point(902, 158);
             this.titleManageRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.titleManageRoom.Name = "titleManageRoom";
@@ -199,8 +199,8 @@
             // metroTile2
             // 
             this.metroTile2.ActiveControl = null;
-            this.metroTile2.BackColor = System.Drawing.Color.SteelBlue;
-            this.metroTile2.ForeColor = System.Drawing.Color.White;
+            this.metroTile2.BackColor = System.Drawing.Color.LightPink;
+            this.metroTile2.ForeColor = System.Drawing.Color.Black;
             this.metroTile2.Location = new System.Drawing.Point(497, 352);
             this.metroTile2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroTile2.Name = "metroTile2";
@@ -219,8 +219,8 @@
             // metroTile8
             // 
             this.metroTile8.ActiveControl = null;
-            this.metroTile8.BackColor = System.Drawing.Color.SteelBlue;
-            this.metroTile8.ForeColor = System.Drawing.Color.White;
+            this.metroTile8.BackColor = System.Drawing.Color.LightPink;
+            this.metroTile8.ForeColor = System.Drawing.Color.Black;
             this.metroTile8.Location = new System.Drawing.Point(356, 524);
             this.metroTile8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroTile8.Name = "metroTile8";
@@ -239,8 +239,8 @@
             // titlePay
             // 
             this.titlePay.ActiveControl = null;
-            this.titlePay.BackColor = System.Drawing.Color.SteelBlue;
-            this.titlePay.ForeColor = System.Drawing.Color.White;
+            this.titlePay.BackColor = System.Drawing.Color.LightPink;
+            this.titlePay.ForeColor = System.Drawing.Color.Black;
             this.titlePay.Location = new System.Drawing.Point(902, 352);
             this.titlePay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.titlePay.Name = "titlePay";
@@ -259,8 +259,8 @@
             // titleRecieveRoom
             // 
             this.titleRecieveRoom.ActiveControl = null;
-            this.titleRecieveRoom.BackColor = System.Drawing.Color.SteelBlue;
-            this.titleRecieveRoom.ForeColor = System.Drawing.Color.White;
+            this.titleRecieveRoom.BackColor = System.Drawing.Color.LightPink;
+            this.titleRecieveRoom.ForeColor = System.Drawing.Color.Black;
             this.titleRecieveRoom.Location = new System.Drawing.Point(497, 158);
             this.titleRecieveRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.titleRecieveRoom.Name = "titleRecieveRoom";
@@ -280,7 +280,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.HotPink;
             this.label2.Location = new System.Drawing.Point(489, 9);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -307,8 +307,8 @@
             // titleBookRoom
             // 
             this.titleBookRoom.ActiveControl = null;
-            this.titleBookRoom.BackColor = System.Drawing.Color.SteelBlue;
-            this.titleBookRoom.ForeColor = System.Drawing.Color.White;
+            this.titleBookRoom.BackColor = System.Drawing.Color.LightPink;
+            this.titleBookRoom.ForeColor = System.Drawing.Color.Black;
             this.titleBookRoom.Location = new System.Drawing.Point(57, 158);
             this.titleBookRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.titleBookRoom.Name = "titleBookRoom";
@@ -326,14 +326,15 @@
             // 
             // btnAccountProfile
             // 
-            this.btnAccountProfile.Activecolor = System.Drawing.Color.SteelBlue;
+            this.btnAccountProfile.Activecolor = System.Drawing.Color.LightPink;
             this.btnAccountProfile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAccountProfile.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnAccountProfile.BackColor = System.Drawing.Color.LightPink;
             this.btnAccountProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAccountProfile.BorderRadius = 0;
-            this.btnAccountProfile.ButtonText = "    Thông Tin Cá Nhân";
+            this.btnAccountProfile.ButtonText = "          Thông Tin Cá Nhân";
             this.btnAccountProfile.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAccountProfile.DisabledColor = System.Drawing.Color.Gray;
+            this.btnAccountProfile.ForeColor = System.Drawing.Color.Black;
             this.btnAccountProfile.Iconcolor = System.Drawing.Color.Transparent;
             this.btnAccountProfile.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnAccountProfile.Iconimage")));
             this.btnAccountProfile.Iconimage_right = null;
@@ -349,28 +350,29 @@
             this.btnAccountProfile.Location = new System.Drawing.Point(57, 74);
             this.btnAccountProfile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnAccountProfile.Name = "btnAccountProfile";
-            this.btnAccountProfile.Normalcolor = System.Drawing.Color.SteelBlue;
+            this.btnAccountProfile.Normalcolor = System.Drawing.Color.LightPink;
             this.btnAccountProfile.OnHovercolor = System.Drawing.Color.DeepSkyBlue;
             this.btnAccountProfile.OnHoverTextColor = System.Drawing.Color.White;
             this.btnAccountProfile.selected = false;
             this.btnAccountProfile.Size = new System.Drawing.Size(236, 49);
             this.btnAccountProfile.TabIndex = 5;
-            this.btnAccountProfile.Text = "    Thông Tin Cá Nhân";
+            this.btnAccountProfile.Text = "          Thông Tin Cá Nhân";
             this.btnAccountProfile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAccountProfile.Textcolor = System.Drawing.Color.White;
+            this.btnAccountProfile.Textcolor = System.Drawing.Color.Black;
             this.btnAccountProfile.TextFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAccountProfile.Click += new System.EventHandler(this.btnAccountProfile_Click);
             // 
             // btnLogOut
             // 
-            this.btnLogOut.Activecolor = System.Drawing.Color.SteelBlue;
+            this.btnLogOut.Activecolor = System.Drawing.Color.LightPink;
             this.btnLogOut.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnLogOut.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnLogOut.BackColor = System.Drawing.Color.LightPink;
             this.btnLogOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLogOut.BorderRadius = 0;
-            this.btnLogOut.ButtonText = "    Đăng Xuất";
+            this.btnLogOut.ButtonText = "           Đăng Xuất";
             this.btnLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogOut.DisabledColor = System.Drawing.Color.Gray;
+            this.btnLogOut.ForeColor = System.Drawing.Color.Black;
             this.btnLogOut.Iconcolor = System.Drawing.Color.Transparent;
             this.btnLogOut.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Iconimage")));
             this.btnLogOut.Iconimage_right = null;
@@ -386,15 +388,15 @@
             this.btnLogOut.Location = new System.Drawing.Point(975, 74);
             this.btnLogOut.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Normalcolor = System.Drawing.Color.SteelBlue;
+            this.btnLogOut.Normalcolor = System.Drawing.Color.LightPink;
             this.btnLogOut.OnHovercolor = System.Drawing.Color.DeepSkyBlue;
             this.btnLogOut.OnHoverTextColor = System.Drawing.Color.White;
             this.btnLogOut.selected = false;
             this.btnLogOut.Size = new System.Drawing.Size(236, 49);
             this.btnLogOut.TabIndex = 4;
-            this.btnLogOut.Text = "    Đăng Xuất";
+            this.btnLogOut.Text = "           Đăng Xuất";
             this.btnLogOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogOut.Textcolor = System.Drawing.Color.White;
+            this.btnLogOut.Textcolor = System.Drawing.Color.Black;
             this.btnLogOut.TextFont = new System.Drawing.Font("Segoe UI", 9.75F);
             this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
