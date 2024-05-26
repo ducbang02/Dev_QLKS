@@ -127,7 +127,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(1645, 7);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -154,9 +154,9 @@
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.SteelBlue;
             this.groupBox3.Location = new System.Drawing.Point(8, 63);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(480, 688);
             this.groupBox3.TabIndex = 31;
             this.groupBox3.TabStop = false;
@@ -178,7 +178,7 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.SteelBlue;
             this.pictureBox6.Location = new System.Drawing.Point(19, 37);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(129, 18);
             this.pictureBox6.TabIndex = 62;
@@ -200,7 +200,7 @@
             // 
             this.color5.BackColor = System.Drawing.Color.Gray;
             this.color5.Location = new System.Drawing.Point(328, 116);
-            this.color5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.color5.Margin = new System.Windows.Forms.Padding(4);
             this.color5.Name = "color5";
             this.color5.Size = new System.Drawing.Size(129, 18);
             this.color5.TabIndex = 60;
@@ -222,7 +222,7 @@
             // 
             this.color3.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.color3.Location = new System.Drawing.Point(20, 116);
-            this.color3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.color3.Margin = new System.Windows.Forms.Padding(4);
             this.color3.Name = "color3";
             this.color3.Size = new System.Drawing.Size(129, 18);
             this.color3.TabIndex = 58;
@@ -244,7 +244,7 @@
             // 
             this.color2.BackColor = System.Drawing.Color.Violet;
             this.color2.Location = new System.Drawing.Point(328, 37);
-            this.color2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.color2.Margin = new System.Windows.Forms.Padding(4);
             this.color2.Name = "color2";
             this.color2.Size = new System.Drawing.Size(129, 18);
             this.color2.TabIndex = 56;
@@ -278,7 +278,7 @@
             // 
             this.color1.BackColor = System.Drawing.Color.Tomato;
             this.color1.Location = new System.Drawing.Point(173, 37);
-            this.color1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.color1.Margin = new System.Windows.Forms.Padding(4);
             this.color1.Name = "color1";
             this.color1.Size = new System.Drawing.Size(129, 18);
             this.color1.TabIndex = 54;
@@ -288,7 +288,7 @@
             // 
             this.color4.BackColor = System.Drawing.Color.LimeGreen;
             this.color4.Location = new System.Drawing.Point(173, 116);
-            this.color4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.color4.Margin = new System.Windows.Forms.Padding(4);
             this.color4.Name = "color4";
             this.color4.Size = new System.Drawing.Size(129, 18);
             this.color4.TabIndex = 52;
@@ -299,7 +299,7 @@
             this.flowLayoutRooms.AutoScroll = true;
             this.flowLayoutRooms.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.flowLayoutRooms.Location = new System.Drawing.Point(4, 190);
-            this.flowLayoutRooms.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutRooms.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutRooms.Name = "flowLayoutRooms";
             this.flowLayoutRooms.Size = new System.Drawing.Size(472, 494);
             this.flowLayoutRooms.TabIndex = 51;
@@ -310,7 +310,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(8, 52);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(1657, 12);
             this.bunifuSeparator1.TabIndex = 33;
@@ -343,9 +343,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.SteelBlue;
             this.groupBox1.Location = new System.Drawing.Point(493, 63);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(315, 358);
             this.groupBox1.TabIndex = 34;
             this.groupBox1.TabStop = false;
@@ -363,7 +363,7 @@
             this.txbPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbPrice.isPassword = false;
             this.txbPrice.Location = new System.Drawing.Point(23, 182);
-            this.txbPrice.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbPrice.Margin = new System.Windows.Forms.Padding(5);
             this.txbPrice.Name = "txbPrice";
             this.txbPrice.Size = new System.Drawing.Size(271, 36);
             this.txbPrice.TabIndex = 58;
@@ -387,7 +387,7 @@
             this.numericUpDownCount.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.numericUpDownCount.Location = new System.Drawing.Point(23, 249);
-            this.numericUpDownCount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownCount.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownCount.Minimum = new decimal(new int[] {
             100,
             0,
@@ -422,7 +422,7 @@
             this.cbService.FormattingEnabled = true;
             this.cbService.ItemHeight = 24;
             this.cbService.Location = new System.Drawing.Point(23, 119);
-            this.cbService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbService.Margin = new System.Windows.Forms.Padding(4);
             this.cbService.Name = "cbService";
             this.cbService.Size = new System.Drawing.Size(269, 30);
             this.cbService.Style = MetroFramework.MetroColorStyle.Blue;
@@ -478,7 +478,7 @@
             this.cbServiceType.FormattingEnabled = true;
             this.cbServiceType.ItemHeight = 24;
             this.cbServiceType.Location = new System.Drawing.Point(23, 54);
-            this.cbServiceType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbServiceType.Margin = new System.Windows.Forms.Padding(4);
             this.cbServiceType.Name = "cbServiceType";
             this.cbServiceType.Size = new System.Drawing.Size(269, 30);
             this.cbServiceType.Style = MetroFramework.MetroColorStyle.Blue;
@@ -512,9 +512,9 @@
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox5.ForeColor = System.Drawing.Color.SteelBlue;
             this.groupBox5.Location = new System.Drawing.Point(493, 425);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(315, 326);
             this.groupBox5.TabIndex = 50;
             this.groupBox5.TabStop = false;
@@ -551,7 +551,7 @@
             this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericUpDown1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.numericUpDown1.Location = new System.Drawing.Point(23, 121);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(271, 34);
             this.numericUpDown1.TabIndex = 62;
@@ -607,7 +607,7 @@
             this.txbTotalPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbTotalPrice.isPassword = false;
             this.txbTotalPrice.Location = new System.Drawing.Point(23, 54);
-            this.txbTotalPrice.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbTotalPrice.Margin = new System.Windows.Forms.Padding(5);
             this.txbTotalPrice.Name = "txbTotalPrice";
             this.txbTotalPrice.Size = new System.Drawing.Size(271, 36);
             this.txbTotalPrice.TabIndex = 58;
@@ -631,9 +631,9 @@
             this.groupBoxBill.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxBill.ForeColor = System.Drawing.Color.SteelBlue;
             this.groupBoxBill.Location = new System.Drawing.Point(816, 322);
-            this.groupBoxBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxBill.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxBill.Name = "groupBoxBill";
-            this.groupBoxBill.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxBill.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxBill.Size = new System.Drawing.Size(849, 428);
             this.groupBoxBill.TabIndex = 51;
             this.groupBoxBill.TabStop = false;
@@ -646,7 +646,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(4, 31);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(841, 393);
             this.panel2.TabIndex = 39;
@@ -667,7 +667,7 @@
             this.listViewUseService.GridLines = true;
             this.listViewUseService.HideSelection = false;
             this.listViewUseService.Location = new System.Drawing.Point(0, 0);
-            this.listViewUseService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listViewUseService.Margin = new System.Windows.Forms.Padding(4);
             this.listViewUseService.Name = "listViewUseService";
             this.listViewUseService.Size = new System.Drawing.Size(841, 393);
             this.listViewUseService.TabIndex = 8;
@@ -682,7 +682,7 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Tên dịch vụ";
-            this.columnHeader2.Width = 330;
+            this.columnHeader2.Width = 181;
             // 
             // columnHeader3
             // 
@@ -758,9 +758,9 @@
             this.groupBillRoom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBillRoom.ForeColor = System.Drawing.Color.SteelBlue;
             this.groupBillRoom.Location = new System.Drawing.Point(815, 63);
-            this.groupBillRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBillRoom.Margin = new System.Windows.Forms.Padding(4);
             this.groupBillRoom.Name = "groupBillRoom";
-            this.groupBillRoom.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBillRoom.Padding = new System.Windows.Forms.Padding(4);
             this.groupBillRoom.Size = new System.Drawing.Size(851, 86);
             this.groupBillRoom.TabIndex = 53;
             this.groupBillRoom.TabStop = false;
@@ -785,7 +785,7 @@
             this.listViewBillRoom.GridLines = true;
             this.listViewBillRoom.HideSelection = false;
             this.listViewBillRoom.Location = new System.Drawing.Point(4, 31);
-            this.listViewBillRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listViewBillRoom.Margin = new System.Windows.Forms.Padding(4);
             this.listViewBillRoom.Name = "listViewBillRoom";
             this.listViewBillRoom.Size = new System.Drawing.Size(843, 51);
             this.listViewBillRoom.TabIndex = 9;
@@ -801,13 +801,13 @@
             // 
             this.columnHeader7.Text = "Đơn giá";
             this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader7.Width = 100;
+            this.columnHeader7.Width = 61;
             // 
             // columnHeader8
             // 
             this.columnHeader8.Text = "Ngày nhận";
             this.columnHeader8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader8.Width = 70;
+            this.columnHeader8.Width = 68;
             // 
             // columnHeader9
             // 
@@ -825,13 +825,13 @@
             // 
             this.columnHeader13.Text = "Phụ thu";
             this.columnHeader13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader13.Width = 100;
+            this.columnHeader13.Width = 63;
             // 
             // columnHeader14
             // 
             this.columnHeader14.Text = "Thành tiền";
             this.columnHeader14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader14.Width = 100;
+            this.columnHeader14.Width = 82;
             // 
             // groupBox2
             // 
@@ -839,9 +839,9 @@
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.SteelBlue;
             this.groupBox2.Location = new System.Drawing.Point(815, 153);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(851, 166);
             this.groupBox2.TabIndex = 54;
             this.groupBox2.TabStop = false;
@@ -863,7 +863,7 @@
             this.listViewSurcharge.GridLines = true;
             this.listViewSurcharge.HideSelection = false;
             this.listViewSurcharge.Location = new System.Drawing.Point(4, 31);
-            this.listViewSurcharge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listViewSurcharge.Margin = new System.Windows.Forms.Padding(4);
             this.listViewSurcharge.Name = "listViewSurcharge";
             this.listViewSurcharge.Size = new System.Drawing.Size(843, 131);
             this.listViewSurcharge.TabIndex = 9;
@@ -907,7 +907,7 @@
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fUseService";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fUseService";

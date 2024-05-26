@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fManagement));
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panelRight = new System.Windows.Forms.Panel();
+            this.btnLogOut = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnAccountProfile = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.metroTile17 = new MetroFramework.Controls.MetroTile();
             this.metroTile16 = new MetroFramework.Controls.MetroTile();
@@ -45,8 +47,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
             this.titleBookRoom = new MetroFramework.Controls.MetroTile();
-            this.btnAccountProfile = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnLogOut = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panelRight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             this.SuspendLayout();
@@ -77,11 +77,87 @@
             this.panelRight.Controls.Add(this.btnClose);
             this.panelRight.Controls.Add(this.titleBookRoom);
             this.panelRight.Location = new System.Drawing.Point(2, 0);
-            this.panelRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelRight.Margin = new System.Windows.Forms.Padding(4);
             this.panelRight.Name = "panelRight";
             this.panelRight.Size = new System.Drawing.Size(1258, 718);
             this.panelRight.TabIndex = 1;
             this.panelRight.Paint += new System.Windows.Forms.PaintEventHandler(this.panelRight_Paint);
+            // 
+            // btnLogOut
+            // 
+            this.btnLogOut.Activecolor = System.Drawing.Color.LightPink;
+            this.btnLogOut.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnLogOut.BackColor = System.Drawing.Color.LightPink;
+            this.btnLogOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLogOut.BorderRadius = 0;
+            this.btnLogOut.ButtonText = "           Đăng Xuất";
+            this.btnLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogOut.DisabledColor = System.Drawing.Color.Gray;
+            this.btnLogOut.ForeColor = System.Drawing.Color.Black;
+            this.btnLogOut.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnLogOut.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Iconimage")));
+            this.btnLogOut.Iconimage_right = null;
+            this.btnLogOut.Iconimage_right_Selected = null;
+            this.btnLogOut.Iconimage_Selected = null;
+            this.btnLogOut.IconMarginLeft = 0;
+            this.btnLogOut.IconMarginRight = 0;
+            this.btnLogOut.IconRightVisible = true;
+            this.btnLogOut.IconRightZoom = 0D;
+            this.btnLogOut.IconVisible = true;
+            this.btnLogOut.IconZoom = 50D;
+            this.btnLogOut.IsTab = false;
+            this.btnLogOut.Location = new System.Drawing.Point(975, 74);
+            this.btnLogOut.Margin = new System.Windows.Forms.Padding(5);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Normalcolor = System.Drawing.Color.LightPink;
+            this.btnLogOut.OnHovercolor = System.Drawing.Color.DeepSkyBlue;
+            this.btnLogOut.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnLogOut.selected = false;
+            this.btnLogOut.Size = new System.Drawing.Size(236, 49);
+            this.btnLogOut.TabIndex = 4;
+            this.btnLogOut.Text = "           Đăng Xuất";
+            this.btnLogOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogOut.Textcolor = System.Drawing.Color.Black;
+            this.btnLogOut.TextFont = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
+            // 
+            // btnAccountProfile
+            // 
+            this.btnAccountProfile.Activecolor = System.Drawing.Color.LightPink;
+            this.btnAccountProfile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAccountProfile.BackColor = System.Drawing.Color.LightPink;
+            this.btnAccountProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAccountProfile.BorderRadius = 0;
+            this.btnAccountProfile.ButtonText = "          Thông Tin Cá Nhân";
+            this.btnAccountProfile.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAccountProfile.DisabledColor = System.Drawing.Color.Gray;
+            this.btnAccountProfile.ForeColor = System.Drawing.Color.Black;
+            this.btnAccountProfile.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnAccountProfile.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnAccountProfile.Iconimage")));
+            this.btnAccountProfile.Iconimage_right = null;
+            this.btnAccountProfile.Iconimage_right_Selected = null;
+            this.btnAccountProfile.Iconimage_Selected = null;
+            this.btnAccountProfile.IconMarginLeft = 0;
+            this.btnAccountProfile.IconMarginRight = 0;
+            this.btnAccountProfile.IconRightVisible = true;
+            this.btnAccountProfile.IconRightZoom = 0D;
+            this.btnAccountProfile.IconVisible = true;
+            this.btnAccountProfile.IconZoom = 50D;
+            this.btnAccountProfile.IsTab = false;
+            this.btnAccountProfile.Location = new System.Drawing.Point(57, 74);
+            this.btnAccountProfile.Margin = new System.Windows.Forms.Padding(5);
+            this.btnAccountProfile.Name = "btnAccountProfile";
+            this.btnAccountProfile.Normalcolor = System.Drawing.Color.LightPink;
+            this.btnAccountProfile.OnHovercolor = System.Drawing.Color.DeepSkyBlue;
+            this.btnAccountProfile.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnAccountProfile.selected = false;
+            this.btnAccountProfile.Size = new System.Drawing.Size(236, 49);
+            this.btnAccountProfile.TabIndex = 5;
+            this.btnAccountProfile.Text = "          Thông Tin Cá Nhân";
+            this.btnAccountProfile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAccountProfile.Textcolor = System.Drawing.Color.Black;
+            this.btnAccountProfile.TextFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccountProfile.Click += new System.EventHandler(this.btnAccountProfile_Click);
             // 
             // bunifuSeparator1
             // 
@@ -89,7 +165,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(39, 52);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(1172, 12);
             this.bunifuSeparator1.TabIndex = 54;
@@ -102,7 +178,7 @@
             this.metroTile17.BackColor = System.Drawing.Color.LightPink;
             this.metroTile17.ForeColor = System.Drawing.Color.Black;
             this.metroTile17.Location = new System.Drawing.Point(57, 526);
-            this.metroTile17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.metroTile17.Margin = new System.Windows.Forms.Padding(4);
             this.metroTile17.Name = "metroTile17";
             this.metroTile17.Size = new System.Drawing.Size(268, 149);
             this.metroTile17.TabIndex = 47;
@@ -122,7 +198,7 @@
             this.metroTile16.BackColor = System.Drawing.Color.LightPink;
             this.metroTile16.ForeColor = System.Drawing.Color.Black;
             this.metroTile16.Location = new System.Drawing.Point(57, 352);
-            this.metroTile16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.metroTile16.Margin = new System.Windows.Forms.Padding(4);
             this.metroTile16.Name = "metroTile16";
             this.metroTile16.Size = new System.Drawing.Size(360, 146);
             this.metroTile16.TabIndex = 44;
@@ -142,7 +218,7 @@
             this.metroTile13.BackColor = System.Drawing.Color.LightPink;
             this.metroTile13.ForeColor = System.Drawing.Color.Black;
             this.metroTile13.Location = new System.Drawing.Point(975, 526);
-            this.metroTile13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.metroTile13.Margin = new System.Windows.Forms.Padding(4);
             this.metroTile13.Name = "metroTile13";
             this.metroTile13.Size = new System.Drawing.Size(236, 149);
             this.metroTile13.TabIndex = 41;
@@ -162,7 +238,7 @@
             this.title.BackColor = System.Drawing.Color.LightPink;
             this.title.ForeColor = System.Drawing.Color.Black;
             this.title.Location = new System.Drawing.Point(670, 526);
-            this.title.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.title.Margin = new System.Windows.Forms.Padding(4);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(277, 149);
             this.title.TabIndex = 36;
@@ -182,7 +258,7 @@
             this.titleManageRoom.BackColor = System.Drawing.Color.LightPink;
             this.titleManageRoom.ForeColor = System.Drawing.Color.Black;
             this.titleManageRoom.Location = new System.Drawing.Point(902, 158);
-            this.titleManageRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.titleManageRoom.Margin = new System.Windows.Forms.Padding(4);
             this.titleManageRoom.Name = "titleManageRoom";
             this.titleManageRoom.Size = new System.Drawing.Size(309, 143);
             this.titleManageRoom.TabIndex = 34;
@@ -202,7 +278,7 @@
             this.metroTile2.BackColor = System.Drawing.Color.LightPink;
             this.metroTile2.ForeColor = System.Drawing.Color.Black;
             this.metroTile2.Location = new System.Drawing.Point(497, 352);
-            this.metroTile2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.metroTile2.Margin = new System.Windows.Forms.Padding(4);
             this.metroTile2.Name = "metroTile2";
             this.metroTile2.Size = new System.Drawing.Size(352, 146);
             this.metroTile2.TabIndex = 32;
@@ -222,7 +298,7 @@
             this.metroTile8.BackColor = System.Drawing.Color.LightPink;
             this.metroTile8.ForeColor = System.Drawing.Color.Black;
             this.metroTile8.Location = new System.Drawing.Point(356, 524);
-            this.metroTile8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.metroTile8.Margin = new System.Windows.Forms.Padding(4);
             this.metroTile8.Name = "metroTile8";
             this.metroTile8.Size = new System.Drawing.Size(276, 151);
             this.metroTile8.TabIndex = 29;
@@ -242,7 +318,7 @@
             this.titlePay.BackColor = System.Drawing.Color.LightPink;
             this.titlePay.ForeColor = System.Drawing.Color.Black;
             this.titlePay.Location = new System.Drawing.Point(902, 352);
-            this.titlePay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.titlePay.Margin = new System.Windows.Forms.Padding(4);
             this.titlePay.Name = "titlePay";
             this.titlePay.Size = new System.Drawing.Size(309, 146);
             this.titlePay.TabIndex = 27;
@@ -262,7 +338,7 @@
             this.titleRecieveRoom.BackColor = System.Drawing.Color.LightPink;
             this.titleRecieveRoom.ForeColor = System.Drawing.Color.Black;
             this.titleRecieveRoom.Location = new System.Drawing.Point(497, 158);
-            this.titleRecieveRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.titleRecieveRoom.Margin = new System.Windows.Forms.Padding(4);
             this.titleRecieveRoom.Name = "titleRecieveRoom";
             this.titleRecieveRoom.Size = new System.Drawing.Size(352, 143);
             this.titleRecieveRoom.TabIndex = 25;
@@ -295,7 +371,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(1227, 13);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -310,7 +386,7 @@
             this.titleBookRoom.BackColor = System.Drawing.Color.LightPink;
             this.titleBookRoom.ForeColor = System.Drawing.Color.Black;
             this.titleBookRoom.Location = new System.Drawing.Point(57, 158);
-            this.titleBookRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.titleBookRoom.Margin = new System.Windows.Forms.Padding(4);
             this.titleBookRoom.Name = "titleBookRoom";
             this.titleBookRoom.Size = new System.Drawing.Size(360, 143);
             this.titleBookRoom.TabIndex = 17;
@@ -324,82 +400,6 @@
             this.titleBookRoom.UseTileImage = true;
             this.titleBookRoom.Click += new System.EventHandler(this.titleSignUpRoom_Click);
             // 
-            // btnAccountProfile
-            // 
-            this.btnAccountProfile.Activecolor = System.Drawing.Color.LightPink;
-            this.btnAccountProfile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAccountProfile.BackColor = System.Drawing.Color.LightPink;
-            this.btnAccountProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAccountProfile.BorderRadius = 0;
-            this.btnAccountProfile.ButtonText = "          Thông Tin Cá Nhân";
-            this.btnAccountProfile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAccountProfile.DisabledColor = System.Drawing.Color.Gray;
-            this.btnAccountProfile.ForeColor = System.Drawing.Color.Black;
-            this.btnAccountProfile.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnAccountProfile.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnAccountProfile.Iconimage")));
-            this.btnAccountProfile.Iconimage_right = null;
-            this.btnAccountProfile.Iconimage_right_Selected = null;
-            this.btnAccountProfile.Iconimage_Selected = null;
-            this.btnAccountProfile.IconMarginLeft = 0;
-            this.btnAccountProfile.IconMarginRight = 0;
-            this.btnAccountProfile.IconRightVisible = true;
-            this.btnAccountProfile.IconRightZoom = 0D;
-            this.btnAccountProfile.IconVisible = true;
-            this.btnAccountProfile.IconZoom = 50D;
-            this.btnAccountProfile.IsTab = false;
-            this.btnAccountProfile.Location = new System.Drawing.Point(57, 74);
-            this.btnAccountProfile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnAccountProfile.Name = "btnAccountProfile";
-            this.btnAccountProfile.Normalcolor = System.Drawing.Color.LightPink;
-            this.btnAccountProfile.OnHovercolor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAccountProfile.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnAccountProfile.selected = false;
-            this.btnAccountProfile.Size = new System.Drawing.Size(236, 49);
-            this.btnAccountProfile.TabIndex = 5;
-            this.btnAccountProfile.Text = "          Thông Tin Cá Nhân";
-            this.btnAccountProfile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAccountProfile.Textcolor = System.Drawing.Color.Black;
-            this.btnAccountProfile.TextFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAccountProfile.Click += new System.EventHandler(this.btnAccountProfile_Click);
-            // 
-            // btnLogOut
-            // 
-            this.btnLogOut.Activecolor = System.Drawing.Color.LightPink;
-            this.btnLogOut.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnLogOut.BackColor = System.Drawing.Color.LightPink;
-            this.btnLogOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLogOut.BorderRadius = 0;
-            this.btnLogOut.ButtonText = "           Đăng Xuất";
-            this.btnLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogOut.DisabledColor = System.Drawing.Color.Gray;
-            this.btnLogOut.ForeColor = System.Drawing.Color.Black;
-            this.btnLogOut.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnLogOut.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Iconimage")));
-            this.btnLogOut.Iconimage_right = null;
-            this.btnLogOut.Iconimage_right_Selected = null;
-            this.btnLogOut.Iconimage_Selected = null;
-            this.btnLogOut.IconMarginLeft = 0;
-            this.btnLogOut.IconMarginRight = 0;
-            this.btnLogOut.IconRightVisible = true;
-            this.btnLogOut.IconRightZoom = 0D;
-            this.btnLogOut.IconVisible = true;
-            this.btnLogOut.IconZoom = 50D;
-            this.btnLogOut.IsTab = false;
-            this.btnLogOut.Location = new System.Drawing.Point(975, 74);
-            this.btnLogOut.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Normalcolor = System.Drawing.Color.LightPink;
-            this.btnLogOut.OnHovercolor = System.Drawing.Color.DeepSkyBlue;
-            this.btnLogOut.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnLogOut.selected = false;
-            this.btnLogOut.Size = new System.Drawing.Size(236, 49);
-            this.btnLogOut.TabIndex = 4;
-            this.btnLogOut.Text = "           Đăng Xuất";
-            this.btnLogOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogOut.Textcolor = System.Drawing.Color.Black;
-            this.btnLogOut.TextFont = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
-            // 
             // fManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -410,7 +410,7 @@
             this.Controls.Add(this.panelRight);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lí khách sạn";
