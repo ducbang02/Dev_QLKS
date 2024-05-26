@@ -60,9 +60,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label2.Location = new System.Drawing.Point(325, 20);
+            this.label2.Location = new System.Drawing.Point(433, 25);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 37);
+            this.label2.Size = new System.Drawing.Size(190, 46);
             this.label2.TabIndex = 3;
             this.label2.Text = "Đăng Nhập";
             // 
@@ -71,9 +72,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label1.Location = new System.Drawing.Point(328, 72);
+            this.label1.Location = new System.Drawing.Point(437, 89);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 20);
+            this.label1.Size = new System.Drawing.Size(141, 25);
             this.label1.TabIndex = 5;
             this.label1.Text = "Tên đăng nhập:";
             // 
@@ -82,9 +84,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label4.Location = new System.Drawing.Point(328, 147);
+            this.label4.Location = new System.Drawing.Point(437, 181);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 20);
+            this.label4.Size = new System.Drawing.Size(95, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Mật khẩu:";
             // 
@@ -98,10 +101,10 @@
             this.txbUserName.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbUserName.isPassword = false;
-            this.txbUserName.Location = new System.Drawing.Point(332, 97);
-            this.txbUserName.Margin = new System.Windows.Forms.Padding(4);
+            this.txbUserName.Location = new System.Drawing.Point(443, 119);
+            this.txbUserName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txbUserName.Name = "txbUserName";
-            this.txbUserName.Size = new System.Drawing.Size(370, 29);
+            this.txbUserName.Size = new System.Drawing.Size(493, 36);
             this.txbUserName.TabIndex = 0;
             this.txbUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -115,10 +118,10 @@
             this.txbPassWord.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txbPassWord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbPassWord.isPassword = true;
-            this.txbPassWord.Location = new System.Drawing.Point(332, 172);
-            this.txbPassWord.Margin = new System.Windows.Forms.Padding(4);
+            this.txbPassWord.Location = new System.Drawing.Point(443, 212);
+            this.txbPassWord.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txbPassWord.Name = "txbPassWord";
-            this.txbPassWord.Size = new System.Drawing.Size(370, 29);
+            this.txbPassWord.Size = new System.Drawing.Size(493, 36);
             this.txbPassWord.TabIndex = 1;
             this.txbPassWord.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txbPassWord.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbPassWord_KeyPress);
@@ -128,8 +131,9 @@
             this.pictureBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(281, 354);
+            this.pictureBox1.Size = new System.Drawing.Size(375, 436);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
@@ -138,9 +142,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(34, 107);
+            this.pictureBox2.Location = new System.Drawing.Point(45, 137);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(208, 147);
+            this.pictureBox2.Size = new System.Drawing.Size(277, 181);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -150,9 +155,10 @@
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
-            this.btnClose.Location = new System.Drawing.Point(734, 5);
+            this.btnClose.Location = new System.Drawing.Point(979, 6);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(16, 16);
+            this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnClose.TabIndex = 19;
             this.btnClose.TabStop = false;
@@ -177,10 +183,10 @@
             this.btnLogin.IdleFillColor = System.Drawing.Color.White;
             this.btnLogin.IdleForecolor = System.Drawing.Color.SteelBlue;
             this.btnLogin.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnLogin.Location = new System.Drawing.Point(332, 240);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnLogin.Location = new System.Drawing.Point(443, 295);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(370, 40);
+            this.btnLogin.Size = new System.Drawing.Size(493, 49);
             this.btnLogin.TabIndex = 22;
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
@@ -190,9 +196,10 @@
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(332, 58);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(443, 71);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(370, 10);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(493, 12);
             this.bunifuSeparator1.TabIndex = 28;
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = false;
@@ -215,10 +222,10 @@
             this.btnExit_.IdleFillColor = System.Drawing.Color.White;
             this.btnExit_.IdleForecolor = System.Drawing.Color.SteelBlue;
             this.btnExit_.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnExit_.Location = new System.Drawing.Point(332, 294);
-            this.btnExit_.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnExit_.Location = new System.Drawing.Point(443, 362);
+            this.btnExit_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnExit_.Name = "btnExit_";
-            this.btnExit_.Size = new System.Drawing.Size(370, 40);
+            this.btnExit_.Size = new System.Drawing.Size(493, 49);
             this.btnExit_.TabIndex = 29;
             this.btnExit_.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnExit_.Click += new System.EventHandler(this.btnExit__Click);
@@ -228,19 +235,20 @@
             this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator2.LineThickness = 1;
-            this.bunifuSeparator2.Location = new System.Drawing.Point(332, 220);
+            this.bunifuSeparator2.Location = new System.Drawing.Point(443, 271);
+            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuSeparator2.Name = "bunifuSeparator2";
-            this.bunifuSeparator2.Size = new System.Drawing.Size(370, 10);
+            this.bunifuSeparator2.Size = new System.Drawing.Size(493, 12);
             this.bunifuSeparator2.TabIndex = 30;
             this.bunifuSeparator2.Transparency = 255;
             this.bunifuSeparator2.Vertical = false;
             // 
             // fLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(755, 354);
+            this.ClientSize = new System.Drawing.Size(1007, 436);
             this.Controls.Add(this.bunifuSeparator2);
             this.Controls.Add(this.btnExit_);
             this.Controls.Add(this.bunifuSeparator1);
@@ -255,6 +263,7 @@
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";

@@ -28,7 +28,7 @@ namespace HotelManager
         void fLoad()
         {
 
-            panelLeft.Width = 177;
+            //panelLeft.Width = 177;
             
         }
         private bool CheckAccess(string nameform)
@@ -47,18 +47,18 @@ namespace HotelManager
        
         private void btnNavigationPanel_Click_1(object sender, EventArgs e)
         {
-            if (panelLeft.Width == 42)
-            {
-                panelLeft.Width = 177;
-                panelRight.Width = 939;
-                this.Width = 1116;
-            }
-            else
-            {
-                panelLeft.Width = 42;
-                panelRight.Width = 807;
-                this.Width = 981;
-            }
+            //if (panelLeft.Width == 42)
+            //{
+            //    panelLeft.Width = 177;
+            //    panelRight.Width = 939;
+            //    this.Width = 1116;
+            //}
+            //else
+            //{
+            //    panelLeft.Width = 42;
+            //    panelRight.Width = 807;
+            //    this.Width = 981;
+            //}
         }
 
         private void titleSignUpRoom_Click(object sender, EventArgs e)
