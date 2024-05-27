@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fRoom));
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -106,7 +106,7 @@
             this.groupBox3.Controls.Add(this.btnCancel);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.HotPink;
-            this.groupBox3.Location = new System.Drawing.Point(7, 65);
+            this.groupBox3.Location = new System.Drawing.Point(11, 109);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
@@ -215,11 +215,11 @@
             this.groupRoom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupRoom.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupRoom.ForeColor = System.Drawing.Color.HotPink;
-            this.groupRoom.Location = new System.Drawing.Point(7, 183);
+            this.groupRoom.Location = new System.Drawing.Point(11, 298);
             this.groupRoom.Margin = new System.Windows.Forms.Padding(4);
             this.groupRoom.Name = "groupRoom";
             this.groupRoom.Padding = new System.Windows.Forms.Padding(4);
-            this.groupRoom.Size = new System.Drawing.Size(592, 245);
+            this.groupRoom.Size = new System.Drawing.Size(592, 284);
             this.groupRoom.TabIndex = 33;
             this.groupRoom.TabStop = false;
             this.groupRoom.Text = "Thông tin phòng";
@@ -244,9 +244,9 @@
             this.label2.Location = new System.Drawing.Point(329, 164);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 25);
+            this.label2.Size = new System.Drawing.Size(186, 25);
             this.label2.TabIndex = 45;
-            this.label2.Text = "Số người tối đa:";
+            this.label2.Text = "Đơn giá từng phòng:";
             // 
             // label16
             // 
@@ -412,7 +412,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(869, 535);
+            this.groupBox1.Size = new System.Drawing.Size(869, 363);
             this.groupBox1.TabIndex = 34;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh Sách Phòng";
@@ -424,14 +424,14 @@
             this.dataGridViewRoom.AllowUserToResizeRows = false;
             this.dataGridViewRoom.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewRoom.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewRoom.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 12F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewRoom.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewRoom.ColumnHeadersHeight = 29;
             this.dataGridViewRoom.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewRoom.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -443,34 +443,34 @@
             this.colStatus,
             this.colIdRoomType,
             this.colIdStatus});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.HotPink;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewRoom.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.HotPink;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewRoom.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewRoom.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewRoom.GridColor = System.Drawing.Color.White;
             this.dataGridViewRoom.Location = new System.Drawing.Point(4, 84);
             this.dataGridViewRoom.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewRoom.Name = "dataGridViewRoom";
             this.dataGridViewRoom.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewRoom.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 12F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewRoom.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewRoom.RowHeadersVisible = false;
             this.dataGridViewRoom.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dataGridViewRoom.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewRoom.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewRoom.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewRoom.Size = new System.Drawing.Size(861, 447);
+            this.dataGridViewRoom.Size = new System.Drawing.Size(861, 275);
             this.dataGridViewRoom.TabIndex = 28;
             this.dataGridViewRoom.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewRoom_CellContentClick);
             // 
@@ -684,20 +684,21 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.btnCLose1);
-            this.groupBox4.Controls.Add(this.btnAddRoom);
             this.groupBox4.Controls.Add(this.btnRoomType);
             this.groupBox4.Controls.Add(this.btnUpdate);
+            this.groupBox4.Controls.Add(this.btnAddRoom);
             this.groupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox4.ForeColor = System.Drawing.Color.HotPink;
-            this.groupBox4.Location = new System.Drawing.Point(7, 431);
+            this.groupBox4.Location = new System.Drawing.Point(607, 449);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox4.Size = new System.Drawing.Size(592, 170);
+            this.groupBox4.Size = new System.Drawing.Size(869, 133);
             this.groupBox4.TabIndex = 58;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Chức năng";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // btnCLose1
             // 
@@ -717,10 +718,10 @@
             this.btnCLose1.IdleFillColor = System.Drawing.Color.White;
             this.btnCLose1.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnCLose1.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnCLose1.Location = new System.Drawing.Point(329, 110);
+            this.btnCLose1.Location = new System.Drawing.Point(613, 36);
             this.btnCLose1.Margin = new System.Windows.Forms.Padding(5);
             this.btnCLose1.Name = "btnCLose1";
-            this.btnCLose1.Size = new System.Drawing.Size(233, 49);
+            this.btnCLose1.Size = new System.Drawing.Size(253, 49);
             this.btnCLose1.TabIndex = 51;
             this.btnCLose1.TabStop = false;
             this.btnCLose1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -744,13 +745,14 @@
             this.btnAddRoom.IdleFillColor = System.Drawing.Color.White;
             this.btnAddRoom.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnAddRoom.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnAddRoom.Location = new System.Drawing.Point(29, 43);
+            this.btnAddRoom.Location = new System.Drawing.Point(613, 84);
             this.btnAddRoom.Margin = new System.Windows.Forms.Padding(5);
             this.btnAddRoom.Name = "btnAddRoom";
-            this.btnAddRoom.Size = new System.Drawing.Size(233, 49);
+            this.btnAddRoom.Size = new System.Drawing.Size(253, 49);
             this.btnAddRoom.TabIndex = 8;
             this.btnAddRoom.TabStop = false;
             this.btnAddRoom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddRoom.Visible = false;
             this.btnAddRoom.Click += new System.EventHandler(this.BtnAddRoom_Click);
             // 
             // btnRoomType
@@ -771,10 +773,10 @@
             this.btnRoomType.IdleFillColor = System.Drawing.Color.White;
             this.btnRoomType.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnRoomType.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnRoomType.Location = new System.Drawing.Point(329, 43);
+            this.btnRoomType.Location = new System.Drawing.Point(103, 36);
             this.btnRoomType.Margin = new System.Windows.Forms.Padding(5);
             this.btnRoomType.Name = "btnRoomType";
-            this.btnRoomType.Size = new System.Drawing.Size(233, 49);
+            this.btnRoomType.Size = new System.Drawing.Size(253, 49);
             this.btnRoomType.TabIndex = 50;
             this.btnRoomType.TabStop = false;
             this.btnRoomType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -798,10 +800,10 @@
             this.btnUpdate.IdleFillColor = System.Drawing.Color.White;
             this.btnUpdate.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnUpdate.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnUpdate.Location = new System.Drawing.Point(29, 112);
+            this.btnUpdate.Location = new System.Drawing.Point(356, 36);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(5);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(233, 49);
+            this.btnUpdate.Size = new System.Drawing.Size(253, 49);
             this.btnUpdate.TabIndex = 52;
             this.btnUpdate.TabStop = false;
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

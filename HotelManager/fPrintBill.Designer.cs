@@ -869,7 +869,7 @@
             // 
             this.btnClose_.ActiveBorderThickness = 1;
             this.btnClose_.ActiveCornerRadius = 20;
-            this.btnClose_.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnClose_.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnClose_.ActiveForecolor = System.Drawing.Color.White;
             this.btnClose_.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose_.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -878,11 +878,11 @@
             this.btnClose_.ButtonText = "Đóng";
             this.btnClose_.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose_.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose_.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnClose_.ForeColor = System.Drawing.Color.HotPink;
             this.btnClose_.IdleBorderThickness = 1;
             this.btnClose_.IdleCornerRadius = 20;
             this.btnClose_.IdleFillColor = System.Drawing.Color.White;
-            this.btnClose_.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnClose_.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnClose_.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose_.Location = new System.Drawing.Point(513, 832);
             this.btnClose_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);

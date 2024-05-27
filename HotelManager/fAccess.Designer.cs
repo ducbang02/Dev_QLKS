@@ -73,7 +73,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(7, 53);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(796, 15);
             this.bunifuSeparator1.TabIndex = 64;
@@ -101,9 +101,9 @@
             this.groupService.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupService.ForeColor = System.Drawing.Color.HotPink;
             this.groupService.Location = new System.Drawing.Point(20, 193);
-            this.groupService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupService.Margin = new System.Windows.Forms.Padding(4);
             this.groupService.Name = "groupService";
-            this.groupService.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupService.Padding = new System.Windows.Forms.Padding(4);
             this.groupService.Size = new System.Drawing.Size(333, 415);
             this.groupService.TabIndex = 65;
             this.groupService.TabStop = false;
@@ -141,7 +141,7 @@
             this.dataGridViewAccessNow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewAccessNow.GridColor = System.Drawing.Color.White;
             this.dataGridViewAccessNow.Location = new System.Drawing.Point(4, 31);
-            this.dataGridViewAccessNow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewAccessNow.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewAccessNow.Name = "dataGridViewAccessNow";
             this.dataGridViewAccessNow.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -183,9 +183,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox1.Location = new System.Drawing.Point(469, 193);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(333, 415);
             this.groupBox1.TabIndex = 66;
             this.groupBox1.TabStop = false;
@@ -223,7 +223,7 @@
             this.dataGridViewAccessRest.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewAccessRest.GridColor = System.Drawing.Color.White;
             this.dataGridViewAccessRest.Location = new System.Drawing.Point(4, 31);
-            this.dataGridViewAccessRest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewAccessRest.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewAccessRest.Name = "dataGridViewAccessRest";
             this.dataGridViewAccessRest.ReadOnly = true;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -277,9 +277,9 @@
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox3.Location = new System.Drawing.Point(20, 64);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(783, 129);
             this.groupBox3.TabIndex = 67;
             this.groupBox3.TabStop = false;
@@ -289,7 +289,7 @@
             // 
             this.bunifuThinButton25.ActiveBorderThickness = 1;
             this.bunifuThinButton25.ActiveCornerRadius = 20;
-            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.LightPink;
             this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton25.BackColor = System.Drawing.Color.White;
@@ -301,7 +301,7 @@
             this.bunifuThinButton25.IdleBorderThickness = 1;
             this.bunifuThinButton25.IdleCornerRadius = 20;
             this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.HotPink;
             this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton25.Location = new System.Drawing.Point(540, 74);
             this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -315,7 +315,7 @@
             // 
             this.btnInsertStaffType.ActiveBorderThickness = 1;
             this.btnInsertStaffType.ActiveCornerRadius = 20;
-            this.btnInsertStaffType.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnInsertStaffType.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnInsertStaffType.ActiveForecolor = System.Drawing.Color.White;
             this.btnInsertStaffType.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnInsertStaffType.BackColor = System.Drawing.Color.White;
@@ -327,7 +327,7 @@
             this.btnInsertStaffType.IdleBorderThickness = 1;
             this.btnInsertStaffType.IdleCornerRadius = 20;
             this.btnInsertStaffType.IdleFillColor = System.Drawing.Color.White;
-            this.btnInsertStaffType.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnInsertStaffType.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnInsertStaffType.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnInsertStaffType.Location = new System.Drawing.Point(540, 17);
             this.btnInsertStaffType.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -341,7 +341,7 @@
             // 
             this.btnUpdate.ActiveBorderThickness = 1;
             this.btnUpdate.ActiveCornerRadius = 20;
-            this.btnUpdate.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnUpdate.ActiveForecolor = System.Drawing.Color.White;
             this.btnUpdate.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnUpdate.BackColor = System.Drawing.Color.White;
@@ -353,7 +353,7 @@
             this.btnUpdate.IdleBorderThickness = 1;
             this.btnUpdate.IdleCornerRadius = 20;
             this.btnUpdate.IdleFillColor = System.Drawing.Color.White;
-            this.btnUpdate.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnUpdate.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnUpdate.Location = new System.Drawing.Point(283, 17);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -370,7 +370,7 @@
             this.cbbStaffType.FormattingEnabled = true;
             this.cbbStaffType.ItemHeight = 24;
             this.cbbStaffType.Location = new System.Drawing.Point(25, 66);
-            this.cbbStaffType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbStaffType.Margin = new System.Windows.Forms.Padding(4);
             this.cbbStaffType.Name = "cbbStaffType";
             this.cbbStaffType.Size = new System.Drawing.Size(232, 30);
             this.cbbStaffType.Style = MetroFramework.MetroColorStyle.Blue;
@@ -397,7 +397,7 @@
             // 
             this.btnDelete.ActiveBorderThickness = 1;
             this.btnDelete.ActiveCornerRadius = 20;
-            this.btnDelete.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnDelete.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnDelete.ActiveForecolor = System.Drawing.Color.White;
             this.btnDelete.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnDelete.BackColor = System.Drawing.Color.White;
@@ -409,7 +409,7 @@
             this.btnDelete.IdleBorderThickness = 1;
             this.btnDelete.IdleCornerRadius = 20;
             this.btnDelete.IdleFillColor = System.Drawing.Color.White;
-            this.btnDelete.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnDelete.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnDelete.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnDelete.Location = new System.Drawing.Point(283, 74);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -530,7 +530,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(781, 15);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -560,7 +560,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fAccess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Access";

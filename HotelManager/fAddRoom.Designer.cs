@@ -76,7 +76,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(11, 58);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(591, 12);
             this.bunifuSeparator1.TabIndex = 30;
@@ -90,9 +90,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox1.Location = new System.Drawing.Point(9, 242);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(591, 87);
             this.groupBox1.TabIndex = 51;
             this.groupBox1.TabStop = false;
@@ -102,7 +102,7 @@
             // 
             this.btnClose_.ActiveBorderThickness = 1;
             this.btnClose_.ActiveCornerRadius = 20;
-            this.btnClose_.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnClose_.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnClose_.ActiveForecolor = System.Drawing.Color.White;
             this.btnClose_.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose_.BackColor = System.Drawing.Color.White;
@@ -114,7 +114,7 @@
             this.btnClose_.IdleBorderThickness = 1;
             this.btnClose_.IdleCornerRadius = 20;
             this.btnClose_.IdleFillColor = System.Drawing.Color.White;
-            this.btnClose_.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnClose_.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnClose_.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose_.Location = new System.Drawing.Point(328, 30);
             this.btnClose_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -128,7 +128,7 @@
             // 
             this.btnAddCustomer.ActiveBorderThickness = 1;
             this.btnAddCustomer.ActiveCornerRadius = 20;
-            this.btnAddCustomer.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnAddCustomer.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnAddCustomer.ActiveForecolor = System.Drawing.Color.White;
             this.btnAddCustomer.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnAddCustomer.BackColor = System.Drawing.Color.White;
@@ -140,7 +140,7 @@
             this.btnAddCustomer.IdleBorderThickness = 1;
             this.btnAddCustomer.IdleCornerRadius = 20;
             this.btnAddCustomer.IdleFillColor = System.Drawing.Color.White;
-            this.btnAddCustomer.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnAddCustomer.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnAddCustomer.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnAddCustomer.Location = new System.Drawing.Point(28, 30);
             this.btnAddCustomer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -164,9 +164,9 @@
             this.groupRoom.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupRoom.ForeColor = System.Drawing.Color.HotPink;
             this.groupRoom.Location = new System.Drawing.Point(9, 69);
-            this.groupRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupRoom.Margin = new System.Windows.Forms.Padding(4);
             this.groupRoom.Name = "groupRoom";
-            this.groupRoom.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupRoom.Padding = new System.Windows.Forms.Padding(4);
             this.groupRoom.Size = new System.Drawing.Size(592, 172);
             this.groupRoom.TabIndex = 53;
             this.groupRoom.TabStop = false;
@@ -283,7 +283,7 @@
             this.comboBoxRoomType.FormattingEnabled = true;
             this.comboBoxRoomType.ItemHeight = 24;
             this.comboBoxRoomType.Location = new System.Drawing.Point(29, 123);
-            this.comboBoxRoomType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxRoomType.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxRoomType.Name = "comboBoxRoomType";
             this.comboBoxRoomType.Size = new System.Drawing.Size(232, 30);
             this.comboBoxRoomType.Style = MetroFramework.MetroColorStyle.Blue;
@@ -300,7 +300,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(587, 6);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -322,7 +322,7 @@
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fAddRoom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fAddCustomerInfo";

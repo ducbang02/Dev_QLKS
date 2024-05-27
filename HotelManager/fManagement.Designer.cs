@@ -237,10 +237,10 @@
             this.title.ActiveControl = null;
             this.title.BackColor = System.Drawing.Color.LightPink;
             this.title.ForeColor = System.Drawing.Color.Black;
-            this.title.Location = new System.Drawing.Point(670, 526);
+            this.title.Location = new System.Drawing.Point(666, 526);
             this.title.Margin = new System.Windows.Forms.Padding(4);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(277, 149);
+            this.title.Size = new System.Drawing.Size(281, 149);
             this.title.TabIndex = 36;
             this.title.Text = "Thống kê doanh thu";
             this.title.TileImage = ((System.Drawing.Image)(resources.GetObject("title.TileImage")));
@@ -277,7 +277,7 @@
             this.metroTile2.ActiveControl = null;
             this.metroTile2.BackColor = System.Drawing.Color.LightPink;
             this.metroTile2.ForeColor = System.Drawing.Color.Black;
-            this.metroTile2.Location = new System.Drawing.Point(497, 352);
+            this.metroTile2.Location = new System.Drawing.Point(482, 352);
             this.metroTile2.Margin = new System.Windows.Forms.Padding(4);
             this.metroTile2.Name = "metroTile2";
             this.metroTile2.Size = new System.Drawing.Size(352, 146);
@@ -300,7 +300,7 @@
             this.metroTile8.Location = new System.Drawing.Point(356, 524);
             this.metroTile8.Margin = new System.Windows.Forms.Padding(4);
             this.metroTile8.Name = "metroTile8";
-            this.metroTile8.Size = new System.Drawing.Size(276, 151);
+            this.metroTile8.Size = new System.Drawing.Size(263, 151);
             this.metroTile8.TabIndex = 29;
             this.metroTile8.Text = "Quản Lí Nhân Viên";
             this.metroTile8.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile8.TileImage")));
@@ -322,7 +322,7 @@
             this.titlePay.Name = "titlePay";
             this.titlePay.Size = new System.Drawing.Size(309, 146);
             this.titlePay.TabIndex = 27;
-            this.titlePay.Text = "Sử Dụng Dịch Vụ VàThanh Toán";
+            this.titlePay.Text = "Thanh Toán";
             this.titlePay.TileImage = ((System.Drawing.Image)(resources.GetObject("titlePay.TileImage")));
             this.titlePay.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.titlePay.UseCustomBackColor = true;
@@ -337,7 +337,7 @@
             this.titleRecieveRoom.ActiveControl = null;
             this.titleRecieveRoom.BackColor = System.Drawing.Color.LightPink;
             this.titleRecieveRoom.ForeColor = System.Drawing.Color.Black;
-            this.titleRecieveRoom.Location = new System.Drawing.Point(497, 158);
+            this.titleRecieveRoom.Location = new System.Drawing.Point(482, 158);
             this.titleRecieveRoom.Margin = new System.Windows.Forms.Padding(4);
             this.titleRecieveRoom.Name = "titleRecieveRoom";
             this.titleRecieveRoom.Size = new System.Drawing.Size(352, 143);

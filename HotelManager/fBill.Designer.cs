@@ -219,11 +219,11 @@
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox2.ForeColor = System.Drawing.Color.HotPink;
-            this.groupBox2.Location = new System.Drawing.Point(5, 529);
+            this.groupBox2.Location = new System.Drawing.Point(561, 485);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(544, 102);
+            this.groupBox2.Size = new System.Drawing.Size(1025, 102);
             this.groupBox2.TabIndex = 60;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chức Năng";
@@ -232,7 +232,7 @@
             // 
             this.btnSeenBill.ActiveBorderThickness = 1;
             this.btnSeenBill.ActiveCornerRadius = 20;
-            this.btnSeenBill.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnSeenBill.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnSeenBill.ActiveForecolor = System.Drawing.Color.White;
             this.btnSeenBill.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnSeenBill.BackColor = System.Drawing.Color.White;
@@ -244,9 +244,9 @@
             this.btnSeenBill.IdleBorderThickness = 1;
             this.btnSeenBill.IdleCornerRadius = 20;
             this.btnSeenBill.IdleFillColor = System.Drawing.Color.White;
-            this.btnSeenBill.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnSeenBill.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnSeenBill.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnSeenBill.Location = new System.Drawing.Point(15, 33);
+            this.btnSeenBill.Location = new System.Drawing.Point(513, 36);
             this.btnSeenBill.Margin = new System.Windows.Forms.Padding(5);
             this.btnSeenBill.Name = "btnSeenBill";
             this.btnSeenBill.Size = new System.Drawing.Size(233, 49);
@@ -259,7 +259,7 @@
             // 
             this.btnCLose1.ActiveBorderThickness = 1;
             this.btnCLose1.ActiveCornerRadius = 20;
-            this.btnCLose1.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnCLose1.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnCLose1.ActiveForecolor = System.Drawing.Color.White;
             this.btnCLose1.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnCLose1.BackColor = System.Drawing.Color.White;
@@ -271,9 +271,9 @@
             this.btnCLose1.IdleBorderThickness = 1;
             this.btnCLose1.IdleCornerRadius = 20;
             this.btnCLose1.IdleFillColor = System.Drawing.Color.White;
-            this.btnCLose1.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnCLose1.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnCLose1.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnCLose1.Location = new System.Drawing.Point(280, 33);
+            this.btnCLose1.Location = new System.Drawing.Point(778, 36);
             this.btnCLose1.Margin = new System.Windows.Forms.Padding(5);
             this.btnCLose1.Name = "btnCLose1";
             this.btnCLose1.Size = new System.Drawing.Size(233, 49);
@@ -322,11 +322,11 @@
             this.groupService.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupService.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupService.ForeColor = System.Drawing.Color.HotPink;
-            this.groupService.Location = new System.Drawing.Point(8, 197);
+            this.groupService.Location = new System.Drawing.Point(8, 251);
             this.groupService.Margin = new System.Windows.Forms.Padding(4);
             this.groupService.Name = "groupService";
             this.groupService.Padding = new System.Windows.Forms.Padding(4);
-            this.groupService.Size = new System.Drawing.Size(541, 334);
+            this.groupService.Size = new System.Drawing.Size(541, 336);
             this.groupService.TabIndex = 1;
             this.groupService.TabStop = false;
             this.groupService.Text = "Thông tin hoá đơn";
@@ -574,7 +574,7 @@
             this.groupBox3.Controls.Add(this.btnCancel);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.HotPink;
-            this.groupBox3.Location = new System.Drawing.Point(8, 64);
+            this.groupBox3.Location = new System.Drawing.Point(13, 95);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
@@ -639,7 +639,7 @@
             // 
             this.btnSearch.ActiveBorderThickness = 1;
             this.btnSearch.ActiveCornerRadius = 20;
-            this.btnSearch.ActiveFillColor = System.Drawing.Color.SteelBlue;
+            this.btnSearch.ActiveFillColor = System.Drawing.Color.LightPink;
             this.btnSearch.ActiveForecolor = System.Drawing.Color.White;
             this.btnSearch.ActiveLineColor = System.Drawing.Color.SteelBlue;
             this.btnSearch.BackColor = System.Drawing.Color.White;
@@ -651,7 +651,7 @@
             this.btnSearch.IdleBorderThickness = 1;
             this.btnSearch.IdleCornerRadius = 20;
             this.btnSearch.IdleFillColor = System.Drawing.Color.White;
-            this.btnSearch.IdleForecolor = System.Drawing.Color.SteelBlue;
+            this.btnSearch.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnSearch.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnSearch.Location = new System.Drawing.Point(280, 63);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -698,7 +698,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(1033, 567);
+            this.groupBox1.Size = new System.Drawing.Size(1033, 420);
             this.groupBox1.TabIndex = 59;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh Sách Hoá Đơn";
@@ -757,7 +757,7 @@
             this.dataGridViewBill.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.dataGridViewBill.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewBill.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewBill.Size = new System.Drawing.Size(1025, 479);
+            this.dataGridViewBill.Size = new System.Drawing.Size(1025, 332);
             this.dataGridViewBill.TabIndex = 28;
             this.dataGridViewBill.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewBill_CellContentClick);
             // 

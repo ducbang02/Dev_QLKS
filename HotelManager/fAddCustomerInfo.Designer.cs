@@ -93,7 +93,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(11, 58);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(604, 12);
             this.bunifuSeparator1.TabIndex = 30;
@@ -125,9 +125,9 @@
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox2.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox2.Location = new System.Drawing.Point(8, 192);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(604, 375);
             this.groupBox2.TabIndex = 49;
             this.groupBox2.TabStop = false;
@@ -139,7 +139,7 @@
             this.txtIDCustomer.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.txtIDCustomer.ForeColor = System.Drawing.Color.SteelBlue;
             this.txtIDCustomer.Location = new System.Drawing.Point(176, 39);
-            this.txtIDCustomer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIDCustomer.Margin = new System.Windows.Forms.Padding(4);
             this.txtIDCustomer.Name = "txtIDCustomer";
             this.txtIDCustomer.Size = new System.Drawing.Size(160, 27);
             this.txtIDCustomer.TabIndex = 55;
@@ -179,7 +179,7 @@
             "Ý",
             "Khác"});
             this.cbNationality.Location = new System.Drawing.Point(320, 310);
-            this.cbNationality.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbNationality.Margin = new System.Windows.Forms.Padding(4);
             this.cbNationality.Name = "cbNationality";
             this.cbNationality.Size = new System.Drawing.Size(269, 30);
             this.cbNationality.Style = MetroFramework.MetroColorStyle.Blue;
@@ -223,7 +223,7 @@
             this.cbCustomerType.FormattingEnabled = true;
             this.cbCustomerType.ItemHeight = 24;
             this.cbCustomerType.Location = new System.Drawing.Point(13, 246);
-            this.cbCustomerType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbCustomerType.Margin = new System.Windows.Forms.Padding(4);
             this.cbCustomerType.Name = "cbCustomerType";
             this.cbCustomerType.Size = new System.Drawing.Size(269, 30);
             this.cbCustomerType.TabIndex = 42;
@@ -269,7 +269,7 @@
             this.txbAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbAddress.isPassword = false;
             this.txbAddress.Location = new System.Drawing.Point(320, 180);
-            this.txbAddress.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbAddress.Margin = new System.Windows.Forms.Padding(5);
             this.txbAddress.Name = "txbAddress";
             this.txbAddress.Size = new System.Drawing.Size(271, 36);
             this.txbAddress.TabIndex = 25;
@@ -298,7 +298,7 @@
             "Nữ",
             "Khác"});
             this.cbSex.Location = new System.Drawing.Point(320, 242);
-            this.cbSex.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbSex.Margin = new System.Windows.Forms.Padding(4);
             this.cbSex.Name = "cbSex";
             this.cbSex.Size = new System.Drawing.Size(269, 30);
             this.cbSex.Style = MetroFramework.MetroColorStyle.Blue;
@@ -343,7 +343,7 @@
             this.txbPhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbPhoneNumber.isPassword = false;
             this.txbPhoneNumber.Location = new System.Drawing.Point(13, 310);
-            this.txbPhoneNumber.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbPhoneNumber.Margin = new System.Windows.Forms.Padding(5);
             this.txbPhoneNumber.Name = "txbPhoneNumber";
             this.txbPhoneNumber.Size = new System.Drawing.Size(271, 36);
             this.txbPhoneNumber.TabIndex = 24;
@@ -373,7 +373,7 @@
             this.txbIDCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDCard.isPassword = false;
             this.txbIDCard.Location = new System.Drawing.Point(13, 177);
-            this.txbIDCard.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbIDCard.Margin = new System.Windows.Forms.Padding(5);
             this.txbIDCard.Name = "txbIDCard";
             this.txbIDCard.Size = new System.Drawing.Size(271, 36);
             this.txbIDCard.TabIndex = 22;
@@ -403,7 +403,7 @@
             this.txbFullName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbFullName.isPassword = false;
             this.txbFullName.Location = new System.Drawing.Point(13, 112);
-            this.txbFullName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbFullName.Margin = new System.Windows.Forms.Padding(5);
             this.txbFullName.Name = "txbFullName";
             this.txbFullName.Size = new System.Drawing.Size(271, 36);
             this.txbFullName.TabIndex = 21;
@@ -429,9 +429,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox1.Location = new System.Drawing.Point(11, 587);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(604, 153);
             this.groupBox1.TabIndex = 51;
             this.groupBox1.TabStop = false;
@@ -453,7 +453,7 @@
             this.btnClose_.IdleBorderThickness = 1;
             this.btnClose_.IdleCornerRadius = 20;
             this.btnClose_.IdleFillColor = System.Drawing.Color.White;
-            this.btnClose_.IdleForecolor = System.Drawing.Color.LightPink;
+            this.btnClose_.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnClose_.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnClose_.Location = new System.Drawing.Point(13, 85);
             this.btnClose_.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -479,7 +479,7 @@
             this.btnAddCustomer.IdleBorderThickness = 1;
             this.btnAddCustomer.IdleCornerRadius = 20;
             this.btnAddCustomer.IdleFillColor = System.Drawing.Color.White;
-            this.btnAddCustomer.IdleForecolor = System.Drawing.Color.LightPink;
+            this.btnAddCustomer.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnAddCustomer.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnAddCustomer.Location = new System.Drawing.Point(16, 30);
             this.btnAddCustomer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -505,7 +505,7 @@
             this.bunifuThinButton21.IdleBorderThickness = 1;
             this.bunifuThinButton21.IdleCornerRadius = 20;
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.LightPink;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.HotPink;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.bunifuThinButton21.Location = new System.Drawing.Point(320, 30);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -523,9 +523,9 @@
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox3.Location = new System.Drawing.Point(8, 71);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(605, 116);
             this.groupBox3.TabIndex = 52;
             this.groupBox3.TabStop = false;
@@ -568,7 +568,7 @@
             this.txbIDCardSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbIDCardSearch.isPassword = false;
             this.txbIDCardSearch.Location = new System.Drawing.Point(12, 60);
-            this.txbIDCardSearch.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txbIDCardSearch.Margin = new System.Windows.Forms.Padding(5);
             this.txbIDCardSearch.Name = "txbIDCardSearch";
             this.txbIDCardSearch.Size = new System.Drawing.Size(271, 36);
             this.txbIDCardSearch.TabIndex = 27;
@@ -594,7 +594,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.Location = new System.Drawing.Point(593, 6);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(21, 20);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -618,7 +618,7 @@
             this.ForeColor = System.Drawing.Color.HotPink;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fAddCustomerInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fAddCustomerInfo";

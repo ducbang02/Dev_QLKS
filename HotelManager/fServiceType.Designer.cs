@@ -245,7 +245,7 @@
             this.txbName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txbName.isPassword = false;
-            this.txbName.Location = new System.Drawing.Point(26, 106);
+            this.txbName.Location = new System.Drawing.Point(26, 109);
             this.txbName.Margin = new System.Windows.Forms.Padding(0);
             this.txbName.Name = "txbName";
             this.txbName.Size = new System.Drawing.Size(175, 29);
@@ -279,9 +279,9 @@
             this.btnUpdateServiceType.IdleBorderThickness = 1;
             this.btnUpdateServiceType.IdleCornerRadius = 20;
             this.btnUpdateServiceType.IdleFillColor = System.Drawing.Color.White;
-            this.btnUpdateServiceType.IdleForecolor = System.Drawing.Color.LightPink;
+            this.btnUpdateServiceType.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnUpdateServiceType.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnUpdateServiceType.Location = new System.Drawing.Point(26, 71);
+            this.btnUpdateServiceType.Location = new System.Drawing.Point(323, 21);
             this.btnUpdateServiceType.Margin = new System.Windows.Forms.Padding(6);
             this.btnUpdateServiceType.Name = "btnUpdateServiceType";
             this.btnUpdateServiceType.Size = new System.Drawing.Size(175, 40);
@@ -298,7 +298,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox1.Location = new System.Drawing.Point(234, 54);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(549, 483);
+            this.groupBox1.Size = new System.Drawing.Size(549, 301);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh Sách Loại Dịch Vụ";
@@ -348,7 +348,7 @@
             this.dataGridViewServiceType.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridViewServiceType.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewServiceType.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewServiceType.Size = new System.Drawing.Size(543, 425);
+            this.dataGridViewServiceType.Size = new System.Drawing.Size(543, 243);
             this.dataGridViewServiceType.TabIndex = 28;
             this.dataGridViewServiceType.SelectionChanged += new System.EventHandler(this.DataGridViewServiceType_SelectionChanged);
             // 
@@ -519,9 +519,9 @@
             this.btnCLose1.IdleBorderThickness = 1;
             this.btnCLose1.IdleCornerRadius = 20;
             this.btnCLose1.IdleFillColor = System.Drawing.Color.White;
-            this.btnCLose1.IdleForecolor = System.Drawing.Color.LightPink;
+            this.btnCLose1.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnCLose1.IdleLineColor = System.Drawing.Color.SteelBlue;
-            this.btnCLose1.Location = new System.Drawing.Point(26, 121);
+            this.btnCLose1.Location = new System.Drawing.Point(570, 21);
             this.btnCLose1.Margin = new System.Windows.Forms.Padding(6);
             this.btnCLose1.Name = "btnCLose1";
             this.btnCLose1.Size = new System.Drawing.Size(175, 40);
@@ -540,7 +540,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.HotPink;
             this.groupBox2.Location = new System.Drawing.Point(5, 356);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(223, 181);
+            this.groupBox2.Size = new System.Drawing.Size(775, 70);
             this.groupBox2.TabIndex = 57;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chức Năng";
@@ -561,7 +561,7 @@
             this.btnInsert.IdleBorderThickness = 1;
             this.btnInsert.IdleCornerRadius = 20;
             this.btnInsert.IdleFillColor = System.Drawing.Color.White;
-            this.btnInsert.IdleForecolor = System.Drawing.Color.LightPink;
+            this.btnInsert.IdleForecolor = System.Drawing.Color.HotPink;
             this.btnInsert.IdleLineColor = System.Drawing.Color.SteelBlue;
             this.btnInsert.Location = new System.Drawing.Point(26, 21);
             this.btnInsert.Margin = new System.Windows.Forms.Padding(6);
@@ -582,7 +582,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(788, 543);
+            this.ClientSize = new System.Drawing.Size(788, 440);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.bunifuSeparator1);
