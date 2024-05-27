@@ -422,5 +422,10 @@ namespace HotelManager
         {
             return BillDetailsDAO.Instance.UpdateBillDetails(idBill, idService, _count);
         }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
